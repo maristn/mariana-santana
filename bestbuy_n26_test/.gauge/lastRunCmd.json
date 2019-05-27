@@ -1,0 +1,6 @@
+[
+	"gauge",
+	"run",
+	"--verbose",
+	"specs"
+]

@@ -1,0 +1,16 @@
+current directory: /Users/mariana/dev/bestbuy_n26_test/vendor/bundle/ruby/2.4.0/gems/debase-0.2.2/ext/attach
+/Users/mariana/.rvm/rubies/ruby-2.4.0/bin/ruby -I /Users/mariana/.rvm/rubies/ruby-2.4.0/lib/ruby/site_ruby/2.4.0 -r ./siteconf20190525-4388-1urmkiq.rb extconf.rb
+checking for vm_core.h... yes
+creating Makefile
+
+current directory: /Users/mariana/dev/bestbuy_n26_test/vendor/bundle/ruby/2.4.0/gems/debase-0.2.2/ext/attach
+make "DESTDIR=" clean
+
+current directory: /Users/mariana/dev/bestbuy_n26_test/vendor/bundle/ruby/2.4.0/gems/debase-0.2.2/ext/attach
+make "DESTDIR="
+compiling attach.c
+linking shared-object attach.bundle
+
+current directory: /Users/mariana/dev/bestbuy_n26_test/vendor/bundle/ruby/2.4.0/gems/debase-0.2.2/ext/attach
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 attach.bundle ./.gem.20190525-4388-1a8n127

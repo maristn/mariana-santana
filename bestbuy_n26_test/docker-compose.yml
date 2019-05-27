@@ -1,0 +1,5 @@
+gauge:
+  build: .
+  volumes:
+    - .:/app
+  entrypoint: gauge

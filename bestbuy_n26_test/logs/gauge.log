@@ -1,0 +1,3934 @@
+18:13:48.693 Plugin ruby is already installed.
+18:13:48.709 Plugin html-report is already installed.
+18:13:49.833 # Specification Heading
+18:13:49.835 ## Vowel counts in single word
+18:13:49.836 * Vowels in English language are "aeiou".
+
+18:13:49.837 * The word "gauge" has "3" vowels.
+
+18:13:49.839 ## Vowel counts in multiple word
+18:13:49.840 * Vowels in English language are "aeiou".
+
+18:13:49.842 * Almost all words have vowels 
+
+   |Word  |Vowel Count|
+   |------|-----------|
+   |Gauge |3          |
+   |Mingle|2          |
+   |Snap  |1          |
+   |GoCD  |1          |
+   |Rhythm|0          |
+18:13:50.153 Plugin [Html Report] with pid [4569] has exited
+18:13:50.154 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:13:50.154 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+18:13:50.154 
+Total time taken: 174ms
+22:08:57.599 Plugin ruby is already installed.
+22:08:57.602 Plugin html-report is already installed.
+22:08:57.603 Installing required plugins.
+22:08:57.603 Installing plugin 'screenshot'
+22:08:57.604 Gathering metadata for screenshot
+22:08:58.816 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:08:58.844 Checking updates...
+22:09:03.479 Installing plugin screenshot 0.0.1
+22:09:03.485 Successfully installed plugin 'screenshot'.
+22:09:09.057 # Product
+22:09:09.156 ## Create Product
+22:09:09.265 * POST/products "product.json"
+22:09:09.504 Connection to runner with Pid 13 lost. The runner probably quit unexpectedly. Inspect logs for potential reasons. Error : read tcp 127.0.0.1:34683->127.0.0.1:34986: use of closed network connection
+22:16:09.758 Plugin ruby is already installed.
+22:16:09.761 Plugin html-report is already installed.
+22:16:09.761 Installing required plugins.
+22:16:09.762 Installing plugin 'screenshot'
+22:16:09.762 Gathering metadata for screenshot
+22:16:11.041 Checking updates...
+22:16:11.048 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:16:16.728 Installing plugin screenshot 0.0.1
+22:16:16.737 Successfully installed plugin 'screenshot'.
+22:16:21.739 # Product
+22:16:21.837 ## Create Product
+22:16:21.941 * POST/products "json/product.json"
+22:16:22.117 
+Failed Step: POST/products "json/product.json"
+22:16:22.117 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:16:22.118 Specification: specs/product.md:11
+22:16:22.119 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/job", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:16:22.831 Plugin [Html Report] with pid [21] has exited
+22:16:22.832 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:16:22.833 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:16:22.833 
+Total time taken: 868ms
+22:17:14.454 Plugin ruby is already installed.
+22:17:14.459 Plugin html-report is already installed.
+22:17:14.459 Installing required plugins.
+22:17:14.460 Installing plugin 'screenshot'
+22:17:14.461 Gathering metadata for screenshot
+22:17:15.660 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:17:15.672 Checking updates...
+22:17:19.347 Installing plugin screenshot 0.0.1
+22:17:19.356 Successfully installed plugin 'screenshot'.
+22:17:23.849 # Product
+22:17:23.949 ## Create Product
+22:17:24.049 * POST/products "json/product.json"
+22:17:24.230 
+Failed Step: POST/products "json/product.json"
+22:17:24.232 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:17:24.233 Specification: specs/product.md:11
+22:17:24.234 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:17:24.638 Plugin [Html Report] with pid [22] has exited
+22:17:24.643 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:17:24.654 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:17:24.657 
+Total time taken: 790ms
+22:19:02.173 Plugin ruby is already installed.
+22:19:02.176 Plugin html-report is already installed.
+22:19:02.176 Installing required plugins.
+22:19:02.177 Installing plugin 'screenshot'
+22:19:02.178 Gathering metadata for screenshot
+22:19:03.301 Checking updates...
+22:19:03.312 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:19:05.998 Installing plugin screenshot 0.0.1
+22:19:06.006 Successfully installed plugin 'screenshot'.
+22:19:11.264 # Product
+22:19:11.364 ## Create Product
+22:19:11.465 * POST/products "json/product.json"
+22:19:11.633 
+Failed Step: POST/products "json/product.json"
+22:19:11.635 Error Message: Failed to open TCP connection to 172.17.0.1:3000 (Connection refused - connect(2) for "172.17.0.1" port 3000)
+22:19:11.637 Specification: specs/product.md:11
+22:19:11.638 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:19:12.147 Plugin [Html Report] with pid [22] has exited
+22:19:12.148 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:19:12.150 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:19:12.151 
+Total time taken: 776ms
+22:20:08.790 Plugin ruby is already installed.
+22:20:08.792 Plugin html-report is already installed.
+22:20:08.793 Installing required plugins.
+22:20:08.794 Installing plugin 'screenshot'
+22:20:08.795 Gathering metadata for screenshot
+22:20:10.144 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:20:10.144 Checking updates...
+22:20:15.007 Installing plugin screenshot 0.0.1
+22:20:15.019 Successfully installed plugin 'screenshot'.
+22:20:20.754 # Product
+22:20:20.852 ## Create Product
+22:20:20.952 * POST/products "json/product.json"
+22:20:21.139 
+Failed Step: POST/products "json/product.json"
+22:20:21.140 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:20:21.141 Specification: specs/product.md:11
+22:20:21.141 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:20:21.539 Plugin [Html Report] with pid [21] has exited
+22:20:21.541 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:20:21.542 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:20:21.544 
+Total time taken: 795ms
+22:24:34.600 Plugin ruby is already installed.
+22:24:34.603 Plugin html-report is already installed.
+22:24:34.604 Installing required plugins.
+22:24:34.605 Installing plugin 'screenshot'
+22:24:34.606 Gathering metadata for screenshot
+22:24:37.100 Checking updates...
+22:24:37.105 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:24:42.023 Installing plugin screenshot 0.0.1
+22:24:42.030 Successfully installed plugin 'screenshot'.
+22:24:46.675 # Product
+22:24:46.774 ## Create Product
+22:24:46.876 * POST/products "json/product.json"
+22:24:47.049 
+Failed Step: POST/products "json/product.json"
+22:24:47.056 Error Message: Failed to open TCP connection to 127.0.0.1:80 (Connection refused - connect(2) for "127.0.0.1" port 80)
+22:24:47.059 Specification: specs/product.md:11
+22:24:47.061 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:24:47.358 Plugin [Html Report] with pid [22] has exited
+22:24:47.359 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:24:47.359 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:24:47.360 
+Total time taken: 795ms
+22:25:55.082 Plugin ruby is already installed.
+22:25:55.089 Plugin html-report is already installed.
+22:25:55.090 Installing required plugins.
+22:25:55.091 Installing plugin 'screenshot'
+22:25:55.091 Gathering metadata for screenshot
+22:25:56.292 Checking updates...
+22:25:56.305 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:26:01.740 Installing plugin screenshot 0.0.1
+22:26:01.748 Successfully installed plugin 'screenshot'.
+22:26:07.133 # Product
+22:26:07.233 ## Create Product
+22:26:07.377 * POST/products "json/product.json"
+22:26:09.361 * "POST" Response code must be "201"
+
+22:26:09.587 
+Failed Step: "POST" Response code must be "201"
+22:26:09.588 Error Message: 
+expected: 201
+     got: 404
+
+(compared using ==)
+22:26:09.588 Specification: specs/product.md:12
+22:26:09.589 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+22:26:10.002 Plugin [Html Report] with pid [22] has exited
+22:26:10.002 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:26:10.003 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:26:10.004 
+Total time taken: 2.88s
+22:27:30.262 Plugin ruby is already installed.
+22:27:30.265 Plugin html-report is already installed.
+22:27:30.266 Installing required plugins.
+22:27:30.268 Installing plugin 'screenshot'
+22:27:30.268 Gathering metadata for screenshot
+22:27:31.828 Checking updates...
+22:27:31.837 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:27:37.529 Installing plugin screenshot 0.0.1
+22:27:37.535 Successfully installed plugin 'screenshot'.
+22:27:44.330 # Product
+22:27:44.430 ## Create Product
+22:27:44.533 * POST/products "json/product.json"
+22:27:44.700 
+Failed Step: POST/products "json/product.json"
+22:27:44.701 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:27:44.702 Specification: specs/product.md:11
+22:27:44.704 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:27:45.011 Plugin [Html Report] with pid [21] has exited
+22:27:45.012 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:27:45.013 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:27:45.014 
+Total time taken: 784ms
+22:30:24.597 Plugin ruby is already installed.
+22:30:24.599 Plugin html-report is already installed.
+22:30:24.600 Installing required plugins.
+22:30:24.601 Installing plugin 'screenshot'
+22:30:24.602 Gathering metadata for screenshot
+22:30:25.803 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:30:25.804 Checking updates...
+22:30:30.485 Installing plugin screenshot 0.0.1
+22:30:30.491 Successfully installed plugin 'screenshot'.
+22:30:35.625 # Product
+22:30:35.724 ## Create Product
+22:30:35.822 * POST/products "json/product.json"
+22:30:36.004 
+Failed Step: POST/products "json/product.json"
+22:30:36.006 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:30:36.008 Specification: specs/product.md:11
+22:30:36.009 Stacktrace: 
+
+> 8 | response = HTTParty.post("#{ENV['LOCAL']}/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:30:36.511 Plugin [Html Report] with pid [21] has exited
+22:30:36.512 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:30:36.513 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:30:36.515 
+Total time taken: 798ms
+22:31:11.588 Plugin ruby is already installed.
+22:31:11.591 Plugin html-report is already installed.
+22:31:11.592 Installing required plugins.
+22:31:11.594 Installing plugin 'screenshot'
+22:31:11.595 Gathering metadata for screenshot
+22:31:12.826 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:31:12.830 Checking updates...
+22:31:18.034 Installing plugin screenshot 0.0.1
+22:31:18.046 Successfully installed plugin 'screenshot'.
+22:31:23.281 # Product
+22:31:23.379 ## Create Product
+22:31:23.483 * POST/products "json/product.json"
+22:31:23.669 
+Failed Step: POST/products "json/product.json"
+22:31:23.672 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:31:23.674 Specification: specs/product.md:11
+22:31:23.676 Stacktrace: 
+
+> 8 | response = HTTParty.post("http://localhost:3030/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:31:24.074 Plugin [Html Report] with pid [21] has exited
+22:31:24.078 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:31:24.081 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:31:24.083 
+Total time taken: 814ms
+22:31:42.776 Plugin ruby is already installed.
+22:31:42.778 Plugin html-report is already installed.
+22:31:42.779 Installing required plugins.
+22:31:42.780 Installing plugin 'screenshot'
+22:31:42.780 Gathering metadata for screenshot
+22:31:43.925 Checking updates...
+22:31:43.952 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:31:49.632 Installing plugin screenshot 0.0.1
+22:31:49.642 Successfully installed plugin 'screenshot'.
+22:31:54.795 # Product
+22:31:54.894 ## Create Product
+22:31:54.994 * POST/products "json/product.json"
+22:31:55.166 
+Failed Step: POST/products "json/product.json"
+22:31:55.169 Error Message: 'localhost:3030/products' Must be HTTP, HTTPS or Generic
+22:31:55.170 Specification: specs/product.md:11
+22:31:55.171 Stacktrace: 
+
+> 8 | response = HTTParty.post("localhost:3030/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:31:55.592 Plugin [Html Report] with pid [21] has exited
+22:31:55.638 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:31:55.645 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:31:55.650 
+Total time taken: 785ms
+22:32:30.754 Plugin ruby is already installed.
+22:32:30.756 Plugin html-report is already installed.
+22:32:30.757 Installing required plugins.
+22:32:30.758 Installing plugin 'screenshot'
+22:32:30.758 Gathering metadata for screenshot
+22:32:31.870 Checking updates...
+22:32:31.876 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:32:41.101 Installing plugin screenshot 0.0.1
+22:32:41.106 Successfully installed plugin 'screenshot'.
+22:32:46.688 # Product
+22:32:46.791 ## Create Product
+22:32:46.889 * POST/products "json/product.json"
+22:32:47.072 
+Failed Step: POST/products "json/product.json"
+22:32:47.075 Error Message: Failed to open TCP connection to localhost:3030 (Cannot assign requested address - connect(2) for "localhost" port 3030)
+22:32:47.075 Specification: specs/product.md:11
+22:32:47.076 Stacktrace: 
+
+> 8 | response = HTTParty.post("http://localhost:3030/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:32:47.488 Plugin [Html Report] with pid [22] has exited
+22:32:47.492 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:32:47.496 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:32:47.499 
+Total time taken: 797ms
+22:36:21.455 Plugin ruby is already installed.
+22:36:21.458 Plugin html-report is already installed.
+22:36:21.459 Installing required plugins.
+22:36:21.461 Installing plugin 'screenshot'
+22:36:21.461 Gathering metadata for screenshot
+22:36:22.576 Checking updates...
+22:36:22.579 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:36:27.870 Installing plugin screenshot 0.0.1
+22:36:27.877 Successfully installed plugin 'screenshot'.
+22:36:33.893 # Product
+22:36:33.996 ## Create Product
+22:36:34.091 * POST/products "json/product.json"
+22:36:34.282 
+Failed Step: POST/products "json/product.json"
+22:36:34.284 Error Message: Failed to open TCP connection to 192.168.15.11:80 (Connection refused - connect(2) for "192.168.15.11" port 80)
+22:36:34.285 Specification: specs/product.md:11
+22:36:34.286 Stacktrace: 
+
+> 8 | response = HTTParty.post("http://192.168.15.11/products", :body => data, :headers => { 'Content-Type' => 'application/json' })
+
+/app/step_implementations/product_steps.rb:8:in `block in <top (required)>'
+22:36:34.687 Plugin [Html Report] with pid [22] has exited
+22:36:34.687 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:36:34.689 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:36:34.689 
+Total time taken: 804ms
+22:36:51.182 Plugin html-report is already installed.
+22:36:51.187 Plugin ruby is already installed.
+22:36:51.188 Installing required plugins.
+22:36:51.189 Installing plugin 'screenshot'
+22:36:51.190 Gathering metadata for screenshot
+22:36:52.377 Checking updates...
+22:36:52.383 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:36:55.747 Installing plugin screenshot 0.0.1
+22:36:55.753 Successfully installed plugin 'screenshot'.
+22:37:02.073 # Product
+22:37:02.174 ## Create Product
+22:37:02.273 * POST/products "json/product.json"
+22:37:02.544 * "POST" Response code must be "201"
+
+22:37:03.102 Plugin [Html Report] with pid [21] has exited
+22:37:03.104 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:37:03.104 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:37:03.107 
+Total time taken: 1.04s
+22:38:09.070 Plugin ruby is already installed.
+22:38:09.072 Plugin html-report is already installed.
+22:38:09.073 Installing required plugins.
+22:38:09.074 Installing plugin 'screenshot'
+22:38:09.075 Gathering metadata for screenshot
+22:38:10.265 Checking updates...
+22:38:10.390 Downloading screenshot-0.0.1-linux.x86_64.zip
+22:38:20.543 Installing plugin screenshot 0.0.1
+22:38:20.550 Successfully installed plugin 'screenshot'.
+22:38:25.689 # Product
+22:38:25.787 ## Create Product
+22:38:25.892 * POST/products "json/product.json"
+22:38:26.058 * "POST" Response code must be "201"
+
+22:38:26.619 Plugin [Html Report] with pid [21] has exited
+22:38:26.621 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:38:26.626 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:38:26.629 
+Total time taken: 958ms
+17:09:04.911 Plugin ruby is already installed.
+17:09:04.914 Plugin html-report is already installed.
+17:09:04.916 Installing required plugins.
+17:09:04.917 Installing plugin 'screenshot'
+17:09:04.918 Gathering metadata for screenshot
+17:09:06.690 Checking updates...
+17:09:06.691 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:09:13.402 Installing plugin screenshot 0.0.1
+17:09:13.416 Successfully installed plugin 'screenshot'.
+17:09:19.821 [ValidationError] /app/specs/product.md:52 Step implementation not found => 'POST/products "json/product.json" with "name" ""'
+17:09:19.827 [ValidationError] /app/specs/product.md:59 Step implementation not found => 'POST/products "json/product.json" with "type" ""'
+17:09:19.830 [ValidationError] /app/specs/product.md:67 Step implementation not found => 'POST/products "json/product.json" with "upc" ""'
+17:09:19.832 [ValidationError] /app/specs/product.md:75 Step implementation not found => 'POST/products "json/product.json" with "price" "x"'
+17:09:19.833 [ValidationError] /app/specs/product.md:83 Step implementation not found => 'POST/products "json/product.json" with "description" ""'
+17:09:19.834 [ValidationError] /app/specs/product.md:91 Step implementation not found => 'POST/products "json/product.json" with "model" ""'
+17:09:20.280 # Product
+17:09:20.381 ## Create Product
+17:09:20.483 * POST/products "json/product.json"
+17:09:20.642 * "POST" Response code must be "201"
+17:09:20.789 * Validate product created from response
+
+17:09:20.980 
+Failed Step: Validate product created from response
+17:09:20.981 Error Message: expected 9999686 to respond to `empty?`
+17:09:20.981 Specification: specs/product.md:13
+17:09:20.982 Stacktrace: 
+
+> 22 | expect(post_response_body['id']).not_to be_empty
+
+/app/step_implementations/product_steps.rb:22:in `block in <top (required)>'
+17:09:21.030 ## Get Product by ID
+17:09:21.126 * GET/products?"id=9999679"
+17:09:21.291 * "GET" Response code must be "200"
+
+17:09:21.487 ## Get Highest Priced Products
+17:09:21.588 * GET/products?"$sort[price]=-1"
+17:09:22.637 * "GET" Response code must be "200"
+
+17:09:22.836 ## Get Product Name and Description Only
+17:09:22.941 * GET/products?"$select[]=name&$select[]=description"
+17:09:23.117 * "GET" Response code must be "200"
+
+17:09:23.318 ## Get TVs with free shipping and price between $500 and $800
+17:09:23.419 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+17:09:23.898 * "GET" Response code must be "200"
+
+17:09:24.107 ## List Products
+17:09:24.209 * GET/products
+17:09:24.519 * "GET" Response code must be "200"
+
+17:09:25.885 Plugin [Html Report] with pid [22] has exited
+17:09:25.892 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:09:25.902 Scenarios:	6 executed	5 passed	1 failed	6 skipped
+17:09:25.904 
+Total time taken: 4.963s
+17:16:09.912 Plugin ruby is already installed.
+17:16:09.915 Plugin html-report is already installed.
+17:16:09.915 Installing required plugins.
+17:16:09.916 Installing plugin 'screenshot'
+17:16:09.917 Gathering metadata for screenshot
+17:16:11.913 Checking updates...
+17:16:11.920 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:16:25.067 Installing plugin screenshot 0.0.1
+17:16:25.074 Successfully installed plugin 'screenshot'.
+17:16:30.497 # Product
+17:16:30.598 ## Create Product
+17:16:30.698 * POST/products "json/product.json"
+17:16:30.868 * "POST" Response code must be "201"
+17:16:31.017 * Validate product created from response
+
+17:16:31.208 
+Failed Step: Validate product created from response
+17:16:31.209 Error Message: 
+expected: "name"
+     got: "New Product"
+
+(compared using ==)
+17:16:31.210 Specification: specs/product.md:13
+17:16:31.210 Stacktrace: 
+
+> 23 | expect(post_response_body['name']).to eq(post_request['name'])
+
+/app/step_implementations/product_steps.rb:23:in `block in <top (required)>'
+17:16:31.253 ## Get Product by ID
+17:16:31.355 * GET/products?"id=9999679"
+17:16:31.518 * "GET" Response code must be "200"
+
+17:16:31.713 ## Get Highest Priced Products
+17:16:31.814 * GET/products?"$sort[price]=-1"
+17:16:32.144 * "GET" Response code must be "200"
+
+17:16:32.343 ## Get Product Name and Description Only
+17:16:32.445 * GET/products?"$select[]=name&$select[]=description"
+17:16:32.616 * "GET" Response code must be "200"
+
+17:16:32.816 ## Get TVs with free shipping and price between $500 and $800
+17:16:32.915 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+17:16:33.379 * "GET" Response code must be "200"
+
+17:16:33.574 ## List Products
+17:16:33.677 * GET/products
+17:16:33.986 * "GET" Response code must be "200"
+
+17:16:34.186 ## Create Product without name
+17:16:34.284 * POST/products "json/product.json" with "name" ""
+17:16:34.479 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:16:34.481 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:34.482 Specification: specs/product.md:52
+17:16:34.482 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:34.525 ## Create Product without type
+17:16:34.624 * POST/products "json/product.json" with "type" ""
+17:16:34.795 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:16:34.796 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:34.797 Specification: specs/product.md:59
+17:16:34.798 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:34.847 ## Create Product without upc
+17:16:34.946 * POST/products "json/product.json" with "upc" ""
+17:16:35.126 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:16:35.127 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:35.129 Specification: specs/product.md:67
+17:16:35.130 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:35.175 ## Create Product with invalid price
+17:16:35.278 * POST/products "json/product.json" with "price" "x"
+17:16:35.456 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:16:35.457 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:35.459 Specification: specs/product.md:75
+17:16:35.460 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:35.505 ## Create Product without description
+17:16:35.604 * POST/products "json/product.json" with "description" ""
+17:16:35.796 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:16:35.798 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:35.799 Specification: specs/product.md:83
+17:16:35.800 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:35.844 ## Create Product without model
+17:16:35.944 * POST/products "json/product.json" with "model" ""
+17:16:36.128 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:16:36.129 Error Message: undefined method `pust' for main:Object
+Did you mean?  puts
+17:16:36.132 Specification: specs/product.md:91
+17:16:36.133 Stacktrace: 
+
+> 53 | pust data
+
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:16:37.238 Plugin [Html Report] with pid [21] has exited
+17:16:37.239 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:16:37.240 Scenarios:	12 executed	5 passed	7 failed	0 skipped
+17:16:37.241 
+Total time taken: 6.058s
+17:33:33.529 Plugin ruby is already installed.
+17:33:33.533 Plugin html-report is already installed.
+17:33:33.534 Installing required plugins.
+17:33:33.535 Installing plugin 'screenshot'
+17:33:33.535 Gathering metadata for screenshot
+17:33:35.605 Checking updates...
+17:33:36.117 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:33:51.599 Installing plugin screenshot 0.0.1
+17:33:51.605 Successfully installed plugin 'screenshot'.
+17:33:57.650 # Product
+17:33:57.751 ## Create Product
+17:33:57.849 * POST/products "json/product.json"
+17:33:58.039 * "POST" Response code must be "201"
+17:33:58.189 * Validate product created from response
+
+17:33:58.361 
+Failed Step: Validate product created from response
+17:33:58.363 Error Message: undefined local variable or method `post_request' for main:Object
+17:33:58.364 Specification: specs/product.md:13
+17:33:58.364 Stacktrace: 
+
+> 22 | puts post_request
+
+/app/step_implementations/product_steps.rb:22:in `block in <top (required)>'
+17:33:58.409 ## Create Product without name
+17:33:58.509 * POST/products "json/product.json" with "name" ""
+17:33:58.683 * "POST" Response code must be "400"
+17:33:59.190 
+Failed Step: "POST" Response code must be "400"
+17:33:59.191 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:33:59.193 Specification: specs/product.md:53
+17:33:59.194 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:33:59.239 ## Create Product without type
+17:33:59.338 * POST/products "json/product.json" with "type" ""
+17:33:59.513 * "POST" Response code must be "400"
+17:33:59.668 
+Failed Step: "POST" Response code must be "400"
+17:33:59.669 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:33:59.670 Specification: specs/product.md:60
+17:33:59.671 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:33:59.720 ## Create Product without upc
+17:33:59.820 * POST/products "json/product.json" with "upc" ""
+17:33:59.992 * "POST" Response code must be "400"
+17:34:00.160 
+Failed Step: "POST" Response code must be "400"
+17:34:00.162 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:34:00.163 Specification: specs/product.md:68
+17:34:00.164 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:34:00.209 ## Create Product with invalid price
+17:34:00.308 * POST/products "json/product.json" with "price" "x"
+17:34:00.480 * "POST" Response code must be "400"
+17:34:00.653 
+Failed Step: "POST" Response code must be "400"
+17:34:00.654 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:34:00.655 Specification: specs/product.md:76
+17:34:00.656 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:34:00.700 ## Create Product without description
+17:34:00.800 * POST/products "json/product.json" with "description" ""
+17:34:00.958 * "POST" Response code must be "400"
+17:34:01.128 
+Failed Step: "POST" Response code must be "400"
+17:34:01.129 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:34:01.130 Specification: specs/product.md:84
+17:34:01.130 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:34:01.183 ## Create Product without model
+17:34:01.288 * POST/products "json/product.json" with "model" ""
+17:34:01.481 * "POST" Response code must be "400"
+17:34:01.660 
+Failed Step: "POST" Response code must be "400"
+17:34:01.661 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+17:34:01.662 Specification: specs/product.md:92
+17:34:01.662 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:34:02.873 Plugin [Html Report] with pid [25] has exited
+17:34:02.874 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:34:02.876 Scenarios:	7 executed	0 passed	7 failed	0 skipped
+17:34:02.878 
+Total time taken: 4.439s
+17:36:40.288 Plugin ruby is already installed.
+17:36:40.290 Plugin html-report is already installed.
+17:36:40.291 Installing required plugins.
+17:36:40.292 Installing plugin 'screenshot'
+17:36:40.293 Gathering metadata for screenshot
+17:37:02.229 Checking updates...
+17:37:02.240 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:37:15.416 Installing plugin screenshot 0.0.1
+17:37:15.425 Successfully installed plugin 'screenshot'.
+17:37:19.929 # Product
+17:37:20.028 ## Create Product
+17:37:20.127 * POST/products "json/product.json"
+17:37:20.300 * "POST" Response code must be "201"
+17:37:20.451 * Validate product created from response
+
+17:37:20.639 
+Failed Step: Validate product created from response
+17:37:20.640 Error Message: 
+expected: "name"
+     got: "New Product"
+
+(compared using ==)
+17:37:20.641 Specification: specs/product.md:13
+17:37:20.642 Stacktrace: 
+
+> 25 | expect(post_response_body['name']).to eq(post_request_body['name'])
+
+/app/step_implementations/product_steps.rb:25:in `block in <top (required)>'
+17:37:20.687 ## Create Product without name
+17:37:20.791 * POST/products "json/product.json" with "name" ""
+17:37:20.971 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:37:20.972 Error Message: string not matched
+17:37:20.972 Specification: specs/product.md:52
+17:37:20.973 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:21.017 ## Create Product without type
+17:37:21.119 * POST/products "json/product.json" with "type" ""
+17:37:21.290 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:37:21.292 Error Message: string not matched
+17:37:21.293 Specification: specs/product.md:59
+17:37:21.293 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:21.342 ## Create Product without upc
+17:37:21.438 * POST/products "json/product.json" with "upc" ""
+17:37:21.609 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:37:21.610 Error Message: string not matched
+17:37:21.611 Specification: specs/product.md:67
+17:37:21.612 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:21.657 ## Create Product with invalid price
+17:37:21.760 * POST/products "json/product.json" with "price" "x"
+17:37:21.933 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:37:21.934 Error Message: string not matched
+17:37:21.934 Specification: specs/product.md:75
+17:37:21.935 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:21.978 ## Create Product without description
+17:37:22.079 * POST/products "json/product.json" with "description" ""
+17:37:22.251 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:37:22.253 Error Message: string not matched
+17:37:22.253 Specification: specs/product.md:83
+17:37:22.254 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:22.297 ## Create Product without model
+17:37:22.399 * POST/products "json/product.json" with "model" ""
+17:37:22.579 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:37:22.581 Error Message: string not matched
+17:37:22.583 Specification: specs/product.md:91
+17:37:22.583 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:37:23.488 Plugin [Html Report] with pid [26] has exited
+17:37:23.489 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:37:23.490 Scenarios:	7 executed	0 passed	7 failed	0 skipped
+17:37:23.491 
+Total time taken: 3.057s
+17:39:37.222 Plugin ruby is already installed.
+17:39:37.225 Plugin html-report is already installed.
+17:39:37.227 Installing required plugins.
+17:39:37.228 Installing plugin 'screenshot'
+17:39:37.229 Gathering metadata for screenshot
+17:39:38.609 Checking updates...
+17:39:38.695 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:39:43.888 Installing plugin screenshot 0.0.1
+17:39:43.895 Successfully installed plugin 'screenshot'.
+17:39:49.017 # Product
+17:39:49.118 ## Create Product
+17:39:49.217 * POST/products "json/product.json"
+17:39:49.389 * "POST" Response code must be "201"
+17:39:49.540 * Validate product created from response
+
+17:39:49.727 
+Failed Step: Validate product created from response
+17:39:49.728 Error Message: 
+expected: "name"
+     got: "New Product"
+
+(compared using ==)
+17:39:49.729 Specification: specs/product.md:13
+17:39:49.731 Stacktrace: 
+
+> 25 | expect(post_response_body['name']).to eq(post_request_body['name'])
+
+/app/step_implementations/product_steps.rb:25:in `block in <top (required)>'
+17:39:49.775 ## Create Product without name
+17:39:49.879 * POST/products "json/product.json" with "name" ""
+17:39:50.048 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:39:50.050 Error Message: string not matched
+17:39:50.051 Specification: specs/product.md:52
+17:39:50.052 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:50.094 ## Create Product without type
+17:39:50.200 * POST/products "json/product.json" with "type" ""
+17:39:50.368 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:39:50.370 Error Message: string not matched
+17:39:50.370 Specification: specs/product.md:59
+17:39:50.371 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:50.416 ## Create Product without upc
+17:39:50.518 * POST/products "json/product.json" with "upc" ""
+17:39:50.697 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:39:50.699 Error Message: string not matched
+17:39:50.700 Specification: specs/product.md:67
+17:39:50.700 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:50.744 ## Create Product with invalid price
+17:39:50.845 * POST/products "json/product.json" with "price" "x"
+17:39:51.025 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:39:51.027 Error Message: string not matched
+17:39:51.027 Specification: specs/product.md:75
+17:39:51.028 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:51.076 ## Create Product without description
+17:39:51.175 * POST/products "json/product.json" with "description" ""
+17:39:51.350 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:39:51.352 Error Message: string not matched
+17:39:51.353 Specification: specs/product.md:83
+17:39:51.353 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:51.397 ## Create Product without model
+17:39:51.495 * POST/products "json/product.json" with "model" ""
+17:39:51.665 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:39:51.670 Error Message: string not matched
+17:39:51.671 Specification: specs/product.md:91
+17:39:51.672 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:39:52.889 Plugin [Html Report] with pid [22] has exited
+17:39:52.890 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:39:52.893 Scenarios:	7 executed	0 passed	7 failed	0 skipped
+17:39:52.894 
+Total time taken: 3.065s
+17:40:17.836 Plugin ruby is already installed.
+17:40:17.839 Plugin html-report is already installed.
+17:40:17.840 Installing required plugins.
+17:40:17.841 Installing plugin 'screenshot'
+17:40:17.842 Gathering metadata for screenshot
+17:40:18.949 Checking updates...
+17:40:19.054 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:40:27.084 Installing plugin screenshot 0.0.1
+17:40:27.089 Successfully installed plugin 'screenshot'.
+17:40:32.110 # Product
+17:40:32.215 ## Create Product
+17:40:32.315 * POST/products "json/product.json"
+17:40:32.482 * "POST" Response code must be "201"
+17:40:32.631 * Validate product created from response
+
+17:40:32.800 
+Failed Step: Validate product created from response
+17:40:32.806 Error Message: undefined method `name' for #<String:0x0000558ef24a70f0>
+17:40:32.806 Specification: specs/product.md:13
+17:40:32.807 Stacktrace: 
+
+> 22 | puts post_request_body.name
+
+/app/step_implementations/product_steps.rb:22:in `block in <top (required)>'
+17:40:32.853 ## Create Product without name
+17:40:32.951 * POST/products "json/product.json" with "name" ""
+17:40:33.113 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:40:33.114 Error Message: string not matched
+17:40:33.116 Specification: specs/product.md:52
+17:40:33.117 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:33.161 ## Create Product without type
+17:40:33.261 * POST/products "json/product.json" with "type" ""
+17:40:33.442 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:40:33.443 Error Message: string not matched
+17:40:33.444 Specification: specs/product.md:59
+17:40:33.445 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:33.496 ## Create Product without upc
+17:40:33.595 * POST/products "json/product.json" with "upc" ""
+17:40:33.761 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:40:33.762 Error Message: string not matched
+17:40:33.764 Specification: specs/product.md:67
+17:40:33.765 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:33.810 ## Create Product with invalid price
+17:40:33.912 * POST/products "json/product.json" with "price" "x"
+17:40:34.092 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:40:34.093 Error Message: string not matched
+17:40:34.094 Specification: specs/product.md:75
+17:40:34.095 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:34.145 ## Create Product without description
+17:40:34.240 * POST/products "json/product.json" with "description" ""
+17:40:34.437 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:40:34.439 Error Message: string not matched
+17:40:34.441 Specification: specs/product.md:83
+17:40:34.442 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:34.490 ## Create Product without model
+17:40:34.591 * POST/products "json/product.json" with "model" ""
+17:40:34.774 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:40:34.775 Error Message: string not matched
+17:40:34.776 Specification: specs/product.md:91
+17:40:34.776 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:40:35.766 Plugin [Html Report] with pid [23] has exited
+17:40:35.767 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:40:35.768 Scenarios:	7 executed	0 passed	7 failed	0 skipped
+17:40:35.769 
+Total time taken: 3.065s
+17:41:58.520 Plugin ruby is already installed.
+17:41:58.523 Plugin html-report is already installed.
+17:41:58.523 Installing required plugins.
+17:41:58.524 Installing plugin 'screenshot'
+17:41:58.525 Gathering metadata for screenshot
+17:41:59.822 Checking updates...
+17:41:59.824 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:42:07.453 Installing plugin screenshot 0.0.1
+17:42:07.460 Successfully installed plugin 'screenshot'.
+17:42:12.818 # Product
+17:42:12.920 ## Create Product
+17:42:13.022 * POST/products "json/product.json"
+17:42:13.178 * "POST" Response code must be "201"
+17:42:13.328 * Validate product created from response
+
+17:42:13.531 ## Create Product without name
+17:42:13.628 * POST/products "json/product.json" with "name" ""
+17:42:13.808 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:42:13.809 Error Message: string not matched
+17:42:13.811 Specification: specs/product.md:52
+17:42:13.812 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:13.859 ## Create Product without type
+17:42:13.960 * POST/products "json/product.json" with "type" ""
+17:42:14.139 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:42:14.141 Error Message: string not matched
+17:42:14.141 Specification: specs/product.md:59
+17:42:14.143 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:14.189 ## Create Product without upc
+17:42:14.288 * POST/products "json/product.json" with "upc" ""
+17:42:14.500 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:42:14.501 Error Message: string not matched
+17:42:14.502 Specification: specs/product.md:67
+17:42:14.504 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:14.538 ## Create Product with invalid price
+17:42:14.640 * POST/products "json/product.json" with "price" "x"
+17:42:14.808 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:42:14.809 Error Message: string not matched
+17:42:14.810 Specification: specs/product.md:75
+17:42:14.811 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:14.862 ## Create Product without description
+17:42:14.960 * POST/products "json/product.json" with "description" ""
+17:42:15.130 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:42:15.132 Error Message: string not matched
+17:42:15.132 Specification: specs/product.md:83
+17:42:15.133 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:15.179 ## Create Product without model
+17:42:15.282 * POST/products "json/product.json" with "model" ""
+17:42:15.450 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:42:15.451 Error Message: string not matched
+17:42:15.452 Specification: specs/product.md:91
+17:42:15.453 Stacktrace: 
+
+> 55 | data['#[field]'] = value
+
+/app/step_implementations/product_steps.rb:55:in `[]='
+/app/step_implementations/product_steps.rb:55:in `block in <top (required)>'
+17:42:16.559 Plugin [Html Report] with pid [22] has exited
+17:42:16.561 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:42:16.562 Scenarios:	7 executed	1 passed	6 failed	0 skipped
+17:42:16.564 
+Total time taken: 3.048s
+17:43:30.649 Plugin html-report is already installed.
+17:43:30.651 Plugin ruby is already installed.
+17:43:30.652 Installing required plugins.
+17:43:30.653 Installing plugin 'screenshot'
+17:43:30.654 Gathering metadata for screenshot
+17:43:31.975 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:43:31.976 Checking updates...
+17:43:36.873 Installing plugin screenshot 0.0.1
+17:43:36.879 Successfully installed plugin 'screenshot'.
+17:43:41.596 # Product
+17:43:41.693 ## Create Product without name
+17:43:41.798 * POST/products "json/product.json" with "name" ""
+17:43:41.976 
+Failed Step: POST/products "json/product.json" with "name" ""
+17:43:41.977 Error Message: string not matched
+17:43:41.979 Specification: specs/product.md:52
+17:43:41.979 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:42.026 ## Create Product without type
+17:43:42.126 * POST/products "json/product.json" with "type" ""
+17:43:42.284 
+Failed Step: POST/products "json/product.json" with "type" ""
+17:43:42.285 Error Message: string not matched
+17:43:42.286 Specification: specs/product.md:59
+17:43:42.287 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:42.335 ## Create Product without upc
+17:43:42.437 * POST/products "json/product.json" with "upc" ""
+17:43:42.604 
+Failed Step: POST/products "json/product.json" with "upc" ""
+17:43:42.607 Error Message: string not matched
+17:43:42.608 Specification: specs/product.md:67
+17:43:42.609 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:42.654 ## Create Product with invalid price
+17:43:42.753 * POST/products "json/product.json" with "price" "x"
+17:43:42.926 
+Failed Step: POST/products "json/product.json" with "price" "x"
+17:43:42.927 Error Message: string not matched
+17:43:42.928 Specification: specs/product.md:75
+17:43:42.929 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:42.975 ## Create Product without description
+17:43:43.076 * POST/products "json/product.json" with "description" ""
+17:43:43.253 
+Failed Step: POST/products "json/product.json" with "description" ""
+17:43:43.254 Error Message: string not matched
+17:43:43.255 Specification: specs/product.md:83
+17:43:43.255 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:43.296 ## Create Product without model
+17:43:43.395 * POST/products "json/product.json" with "model" ""
+17:43:43.565 
+Failed Step: POST/products "json/product.json" with "model" ""
+17:43:43.567 Error Message: string not matched
+17:43:43.569 Specification: specs/product.md:91
+17:43:43.570 Stacktrace: 
+
+> 53 | data["#[field]"] = value
+
+/app/step_implementations/product_steps.rb:53:in `[]='
+/app/step_implementations/product_steps.rb:53:in `block in <top (required)>'
+17:43:44.375 Plugin [Html Report] with pid [26] has exited
+17:43:44.376 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:43:44.377 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:43:44.378 
+Total time taken: 2.387s
+17:44:54.208 Plugin html-report is already installed.
+17:44:54.211 Plugin ruby is already installed.
+17:44:54.211 Installing required plugins.
+17:44:54.212 Installing plugin 'screenshot'
+17:44:54.213 Gathering metadata for screenshot
+17:44:55.338 Checking updates...
+17:44:55.634 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:45:00.047 Installing plugin screenshot 0.0.1
+17:45:00.055 Successfully installed plugin 'screenshot'.
+17:45:06.662 # Product
+17:45:06.761 ## Create Product without name
+17:45:06.861 * POST/products "json/product.json" with "name" ""
+17:45:07.033 * "POST" Response code must be "400"
+17:45:07.221 
+Failed Step: "POST" Response code must be "400"
+17:45:07.222 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:07.223 Specification: specs/product.md:53
+17:45:07.223 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:07.274 ## Create Product without type
+17:45:07.374 * POST/products "json/product.json" with "type" ""
+17:45:07.551 * "POST" Response code must be "400"
+17:45:07.713 
+Failed Step: "POST" Response code must be "400"
+17:45:07.714 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:07.714 Specification: specs/product.md:60
+17:45:07.716 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:07.759 ## Create Product without upc
+17:45:07.864 * POST/products "json/product.json" with "upc" ""
+17:45:08.031 * "POST" Response code must be "400"
+17:45:08.193 
+Failed Step: "POST" Response code must be "400"
+17:45:08.194 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:08.195 Specification: specs/product.md:68
+17:45:08.196 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:08.240 ## Create Product with invalid price
+17:45:08.342 * POST/products "json/product.json" with "price" "x"
+17:45:08.514 * "POST" Response code must be "400"
+17:45:08.682 
+Failed Step: "POST" Response code must be "400"
+17:45:08.683 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:08.685 Specification: specs/product.md:76
+17:45:08.686 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:08.729 ## Create Product without description
+17:45:08.830 * POST/products "json/product.json" with "description" ""
+17:45:08.992 * "POST" Response code must be "400"
+17:45:09.152 
+Failed Step: "POST" Response code must be "400"
+17:45:09.154 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:09.155 Specification: specs/product.md:84
+17:45:09.156 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:09.205 ## Create Product without model
+17:45:09.314 * POST/products "json/product.json" with "model" ""
+17:45:09.479 * "POST" Response code must be "400"
+17:45:09.650 
+Failed Step: "POST" Response code must be "400"
+17:45:09.651 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:45:09.652 Specification: specs/product.md:92
+17:45:09.652 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:45:10.761 Plugin [Html Report] with pid [25] has exited
+17:45:10.763 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:45:10.764 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:45:10.765 
+Total time taken: 3.441s
+17:46:44.098 Plugin ruby is already installed.
+17:46:44.101 Plugin html-report is already installed.
+17:46:44.101 Installing required plugins.
+17:46:44.103 Installing plugin 'screenshot'
+17:46:44.103 Gathering metadata for screenshot
+17:46:45.390 Checking updates...
+17:46:45.390 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:46:52.319 Installing plugin screenshot 0.0.1
+17:46:52.326 Successfully installed plugin 'screenshot'.
+17:46:57.464 # Product
+17:46:57.562 ## Create Product without name
+17:46:57.665 * POST/products "json/product.json" with "name" ""
+17:46:57.831 * "POST" Response code must be "400"
+17:46:58.022 
+Failed Step: "POST" Response code must be "400"
+17:46:58.024 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:46:58.025 Specification: specs/product.md:53
+17:46:58.026 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:46:58.071 ## Create Product without type
+17:46:58.177 * POST/products "json/product.json" with "type" ""
+17:46:58.353 * "POST" Response code must be "400"
+17:46:58.522 
+Failed Step: "POST" Response code must be "400"
+17:46:58.523 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:46:58.524 Specification: specs/product.md:60
+17:46:58.525 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:46:58.575 ## Create Product without upc
+17:46:58.677 * POST/products "json/product.json" with "upc" ""
+17:46:58.846 * "POST" Response code must be "400"
+17:46:59.014 
+Failed Step: "POST" Response code must be "400"
+17:46:59.015 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:46:59.016 Specification: specs/product.md:68
+17:46:59.017 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:46:59.066 ## Create Product with invalid price
+17:46:59.167 * POST/products "json/product.json" with "price" "x"
+17:46:59.337 * "POST" Response code must be "400"
+17:46:59.511 
+Failed Step: "POST" Response code must be "400"
+17:46:59.512 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:46:59.512 Specification: specs/product.md:76
+17:46:59.513 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:46:59.553 ## Create Product without description
+17:46:59.657 * POST/products "json/product.json" with "description" ""
+17:46:59.824 * "POST" Response code must be "400"
+17:46:59.995 
+Failed Step: "POST" Response code must be "400"
+17:46:59.997 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:46:59.998 Specification: specs/product.md:84
+17:46:59.999 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:47:00.044 ## Create Product without model
+17:47:00.142 * POST/products "json/product.json" with "model" ""
+17:47:00.316 * "POST" Response code must be "400"
+17:47:00.483 
+Failed Step: "POST" Response code must be "400"
+17:47:00.485 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:47:00.485 Specification: specs/product.md:92
+17:47:00.486 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:47:01.189 Plugin [Html Report] with pid [22] has exited
+17:47:01.190 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:47:01.191 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:47:01.192 
+Total time taken: 3.428s
+17:48:32.735 Plugin ruby is already installed.
+17:48:32.742 Plugin html-report is already installed.
+17:48:32.743 Installing required plugins.
+17:48:32.745 Installing plugin 'screenshot'
+17:48:32.745 Gathering metadata for screenshot
+17:48:34.064 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:48:34.067 Checking updates...
+17:48:40.119 Installing plugin screenshot 0.0.1
+17:48:40.125 Successfully installed plugin 'screenshot'.
+17:48:44.711 # Product
+17:48:44.809 ## Create Product without name
+17:48:44.914 * POST/products "json/product.json" with "name" ""
+17:48:45.093 * "POST" Response code must be "400"
+17:48:45.271 
+Failed Step: "POST" Response code must be "400"
+17:48:45.272 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:45.275 Specification: specs/product.md:53
+17:48:45.275 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:45.321 ## Create Product without type
+17:48:45.421 * POST/products "json/product.json" with "type" ""
+17:48:45.594 * "POST" Response code must be "400"
+17:48:45.751 
+Failed Step: "POST" Response code must be "400"
+17:48:45.753 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:45.754 Specification: specs/product.md:60
+17:48:45.754 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:45.798 ## Create Product without upc
+17:48:45.903 * POST/products "json/product.json" with "upc" ""
+17:48:46.070 * "POST" Response code must be "400"
+17:48:46.232 
+Failed Step: "POST" Response code must be "400"
+17:48:46.233 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:46.234 Specification: specs/product.md:68
+17:48:46.234 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:46.282 ## Create Product with invalid price
+17:48:46.382 * POST/products "json/product.json" with "price" "x"
+17:48:46.553 * "POST" Response code must be "400"
+17:48:46.725 
+Failed Step: "POST" Response code must be "400"
+17:48:46.725 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:46.726 Specification: specs/product.md:76
+17:48:46.727 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:46.772 ## Create Product without description
+17:48:46.872 * POST/products "json/product.json" with "description" ""
+17:48:47.031 * "POST" Response code must be "400"
+17:48:47.190 
+Failed Step: "POST" Response code must be "400"
+17:48:47.192 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:47.192 Specification: specs/product.md:84
+17:48:47.193 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:47.240 ## Create Product without model
+17:48:47.339 * POST/products "json/product.json" with "model" ""
+17:48:47.503 * "POST" Response code must be "400"
+17:48:47.670 
+Failed Step: "POST" Response code must be "400"
+17:48:47.671 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:48:47.672 Specification: specs/product.md:92
+17:48:47.674 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:48:48.660 Plugin [Html Report] with pid [26] has exited
+17:48:48.662 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:48:48.668 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:48:48.674 
+Total time taken: 3.375s
+17:50:32.625 Plugin ruby is already installed.
+17:50:32.628 Plugin html-report is already installed.
+17:50:32.629 Installing required plugins.
+17:50:32.629 Installing plugin 'screenshot'
+17:50:32.630 Gathering metadata for screenshot
+17:50:34.077 Checking updates...
+17:50:34.084 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:50:40.361 Installing plugin screenshot 0.0.1
+17:50:40.368 Successfully installed plugin 'screenshot'.
+17:50:45.203 # Product
+17:50:45.303 ## Create Product without name
+17:50:45.403 * POST/products "json/product.json" with "name" ""
+17:50:45.568 * "POST" Response code must be "400"
+17:50:45.743 
+Failed Step: "POST" Response code must be "400"
+17:50:45.744 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:45.745 Specification: specs/product.md:53
+17:50:45.746 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:45.793 ## Create Product without type
+17:50:45.893 * POST/products "json/product.json" with "type" ""
+17:50:46.053 * "POST" Response code must be "400"
+17:50:46.243 
+Failed Step: "POST" Response code must be "400"
+17:50:46.244 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:46.245 Specification: specs/product.md:60
+17:50:46.246 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:46.294 ## Create Product without upc
+17:50:46.394 * POST/products "json/product.json" with "upc" ""
+17:50:46.554 * "POST" Response code must be "400"
+17:50:46.723 
+Failed Step: "POST" Response code must be "400"
+17:50:46.724 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:46.726 Specification: specs/product.md:68
+17:50:46.727 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:46.772 ## Create Product with invalid price
+17:50:46.871 * POST/products "json/product.json" with "price" "x"
+17:50:47.043 * "POST" Response code must be "400"
+17:50:47.221 
+Failed Step: "POST" Response code must be "400"
+17:50:47.222 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:47.223 Specification: specs/product.md:76
+17:50:47.224 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:47.274 ## Create Product without description
+17:50:47.371 * POST/products "json/product.json" with "description" ""
+17:50:47.541 * "POST" Response code must be "400"
+17:50:47.713 
+Failed Step: "POST" Response code must be "400"
+17:50:47.715 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:47.716 Specification: specs/product.md:84
+17:50:47.717 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:47.761 ## Create Product without model
+17:50:47.863 * POST/products "json/product.json" with "model" ""
+17:50:48.023 * "POST" Response code must be "400"
+17:50:48.175 
+Failed Step: "POST" Response code must be "400"
+17:50:48.177 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:50:48.178 Specification: specs/product.md:92
+17:50:48.179 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:50:49.277 Plugin [Html Report] with pid [23] has exited
+17:50:49.279 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:50:49.283 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:50:49.284 
+Total time taken: 3.425s
+17:51:08.981 Plugin ruby is already installed.
+17:51:08.983 Plugin html-report is already installed.
+17:51:08.984 Installing required plugins.
+17:51:08.985 Installing plugin 'screenshot'
+17:51:08.986 Gathering metadata for screenshot
+17:51:10.156 Checking updates...
+17:51:10.164 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:51:15.466 Installing plugin screenshot 0.0.1
+17:51:15.472 Successfully installed plugin 'screenshot'.
+17:51:20.852 # Product
+17:51:20.955 ## Create Product without name
+17:51:21.053 * POST/products "json/product.json" with "name" ""
+17:51:21.214 * "POST" Response code must be "400"
+17:51:21.387 
+Failed Step: "POST" Response code must be "400"
+17:51:21.389 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:21.390 Specification: specs/product.md:53
+17:51:21.390 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:21.434 ## Create Product without type
+17:51:21.534 * POST/products "json/product.json" with "type" ""
+17:51:21.696 * "POST" Response code must be "400"
+17:51:21.862 
+Failed Step: "POST" Response code must be "400"
+17:51:21.864 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:21.865 Specification: specs/product.md:60
+17:51:21.865 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:21.913 ## Create Product without upc
+17:51:22.012 * POST/products "json/product.json" with "upc" ""
+17:51:22.173 * "POST" Response code must be "400"
+17:51:22.356 
+Failed Step: "POST" Response code must be "400"
+17:51:22.357 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:22.357 Specification: specs/product.md:68
+17:51:22.358 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:22.402 ## Create Product with invalid price
+17:51:22.504 * POST/products "json/product.json" with "price" "x"
+17:51:22.662 * "POST" Response code must be "400"
+17:51:22.833 
+Failed Step: "POST" Response code must be "400"
+17:51:22.836 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:22.837 Specification: specs/product.md:76
+17:51:22.839 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:22.871 ## Create Product without description
+17:51:22.974 * POST/products "json/product.json" with "description" ""
+17:51:23.172 * "POST" Response code must be "400"
+17:51:23.332 
+Failed Step: "POST" Response code must be "400"
+17:51:23.334 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:23.335 Specification: specs/product.md:84
+17:51:23.336 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:23.387 ## Create Product without model
+17:51:23.487 * POST/products "json/product.json" with "model" ""
+17:51:23.652 * "POST" Response code must be "400"
+17:51:23.828 
+Failed Step: "POST" Response code must be "400"
+17:51:23.829 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:51:23.830 Specification: specs/product.md:92
+17:51:23.830 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:51:24.733 Plugin [Html Report] with pid [23] has exited
+17:51:24.736 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:51:24.736 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:51:24.738 
+Total time taken: 3.377s
+17:52:53.256 Plugin ruby is already installed.
+17:52:53.260 Plugin html-report is already installed.
+17:52:53.261 Installing required plugins.
+17:52:53.261 Installing plugin 'screenshot'
+17:52:53.262 Gathering metadata for screenshot
+17:52:54.352 Checking updates...
+17:52:54.367 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:53:00.616 Installing plugin screenshot 0.0.1
+17:53:00.621 Successfully installed plugin 'screenshot'.
+17:53:05.561 # Product
+17:53:05.664 ## Create Product without name
+17:53:05.761 * POST/products "json/product.json" with "name" " "
+17:53:05.931 * "POST" Response code must be "400"
+17:53:06.121 
+Failed Step: "POST" Response code must be "400"
+17:53:06.123 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:06.124 Specification: specs/product.md:53
+17:53:06.125 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:06.171 ## Create Product without type
+17:53:06.273 * POST/products "json/product.json" with "type" " "
+17:53:06.431 * "POST" Response code must be "400"
+17:53:06.611 
+Failed Step: "POST" Response code must be "400"
+17:53:06.613 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:06.614 Specification: specs/product.md:60
+17:53:06.615 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:06.658 ## Create Product without upc
+17:53:06.761 * POST/products "json/product.json" with "upc" " "
+17:53:06.921 * "POST" Response code must be "400"
+17:53:07.085 
+Failed Step: "POST" Response code must be "400"
+17:53:07.086 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:07.087 Specification: specs/product.md:68
+17:53:07.088 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:07.131 ## Create Product with invalid price
+17:53:07.231 * POST/products "json/product.json" with "price" "x"
+17:53:07.393 * "POST" Response code must be "400"
+17:53:07.552 
+Failed Step: "POST" Response code must be "400"
+17:53:07.553 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:07.554 Specification: specs/product.md:76
+17:53:07.555 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:07.611 ## Create Product without description
+17:53:07.709 * POST/products "json/product.json" with "description" " "
+17:53:07.870 * "POST" Response code must be "400"
+17:53:08.055 
+Failed Step: "POST" Response code must be "400"
+17:53:08.059 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:08.061 Specification: specs/product.md:84
+17:53:08.062 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:08.111 ## Create Product without model
+17:53:08.210 * POST/products "json/product.json" with "model" " "
+17:53:08.383 * "POST" Response code must be "400"
+17:53:08.560 
+Failed Step: "POST" Response code must be "400"
+17:53:08.561 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:53:08.563 Specification: specs/product.md:92
+17:53:08.563 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:53:09.773 Plugin [Html Report] with pid [22] has exited
+17:53:09.777 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:53:09.783 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:53:09.785 
+Total time taken: 3.408s
+17:55:38.865 Plugin ruby is already installed.
+17:55:38.868 Plugin html-report is already installed.
+17:55:38.869 Installing required plugins.
+17:55:38.870 Installing plugin 'screenshot'
+17:55:38.871 Gathering metadata for screenshot
+17:55:40.566 Checking updates...
+17:55:40.725 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:55:50.943 Installing plugin screenshot 0.0.1
+17:55:50.949 Successfully installed plugin 'screenshot'.
+17:55:56.684 # Product
+17:55:56.784 ## Create Product without name
+17:55:56.886 * POST/products "json/product.json" with "name" " "
+17:55:57.046 * "POST" Response code must be "400"
+17:55:57.223 
+Failed Step: "POST" Response code must be "400"
+17:55:57.224 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:57.225 Specification: specs/product.md:53
+17:55:57.226 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:55:57.273 ## Create Product without type
+17:55:57.373 * POST/products "json/product.json" with "type" " "
+17:55:57.534 * "POST" Response code must be "400"
+17:55:57.704 
+Failed Step: "POST" Response code must be "400"
+17:55:57.706 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:57.707 Specification: specs/product.md:60
+17:55:57.708 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:55:57.754 ## Create Product without upc
+17:55:57.853 * POST/products "json/product.json" with "upc" " "
+17:55:58.023 * "POST" Response code must be "400"
+17:55:58.194 
+Failed Step: "POST" Response code must be "400"
+17:55:58.196 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:58.196 Specification: specs/product.md:68
+17:55:58.197 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:55:58.244 ## Create Product with invalid price
+17:55:58.347 * POST/products "json/product.json" with "price" "x"
+17:55:58.504 * "POST" Response code must be "400"
+17:55:58.673 
+Failed Step: "POST" Response code must be "400"
+17:55:58.675 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:58.676 Specification: specs/product.md:76
+17:55:58.676 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:55:58.726 ## Create Product without description
+17:55:58.824 * POST/products "json/product.json" with "description" " "
+17:55:58.998 * "POST" Response code must be "400"
+17:55:59.152 
+Failed Step: "POST" Response code must be "400"
+17:55:59.154 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:59.155 Specification: specs/product.md:84
+17:55:59.156 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:55:59.202 ## Create Product without model
+17:55:59.304 * POST/products "json/product.json" with "model" " "
+17:55:59.473 * "POST" Response code must be "400"
+17:55:59.643 
+Failed Step: "POST" Response code must be "400"
+17:55:59.645 Error Message: 
+expected: 400
+     got: nil
+
+(compared using ==)
+17:55:59.647 Specification: specs/product.md:92
+17:55:59.647 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:56:00.763 Plugin [Html Report] with pid [26] has exited
+17:56:00.765 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:56:00.765 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:56:00.766 
+Total time taken: 3.375s
+17:57:24.479 Plugin ruby is already installed.
+17:57:24.482 Plugin html-report is already installed.
+17:57:24.483 Installing required plugins.
+17:57:24.485 Installing plugin 'screenshot'
+17:57:24.486 Gathering metadata for screenshot
+17:57:26.440 Checking updates...
+17:57:26.525 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:57:44.365 Installing plugin screenshot 0.0.1
+17:57:44.371 Successfully installed plugin 'screenshot'.
+17:57:49.166 # Product
+17:57:49.268 ## Create Product without name
+17:57:49.368 * POST/products "json/product.json" with "name" " "
+17:57:49.524 * "POST" Response code must be "400"
+17:57:49.696 
+Failed Step: "POST" Response code must be "400"
+17:57:49.697 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:49.699 Specification: specs/product.md:53
+17:57:49.700 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:49.746 ## Create Product without type
+17:57:49.846 * POST/products "json/product.json" with "type" " "
+17:57:50.004 * "POST" Response code must be "400"
+17:57:50.177 
+Failed Step: "POST" Response code must be "400"
+17:57:50.179 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:50.180 Specification: specs/product.md:60
+17:57:50.180 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:50.224 ## Create Product without upc
+17:57:50.325 * POST/products "json/product.json" with "upc" " "
+17:57:50.486 * "POST" Response code must be "400"
+17:57:50.656 
+Failed Step: "POST" Response code must be "400"
+17:57:50.658 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:50.659 Specification: specs/product.md:68
+17:57:50.660 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:50.704 ## Create Product with invalid price
+17:57:50.806 * POST/products "json/product.json" with "price" "x"
+17:57:50.967 * "POST" Response code must be "400"
+17:57:51.134 
+Failed Step: "POST" Response code must be "400"
+17:57:51.137 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:51.138 Specification: specs/product.md:76
+17:57:51.139 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:51.187 ## Create Product without description
+17:57:51.285 * POST/products "json/product.json" with "description" " "
+17:57:51.449 * "POST" Response code must be "400"
+17:57:51.626 
+Failed Step: "POST" Response code must be "400"
+17:57:51.628 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:51.629 Specification: specs/product.md:84
+17:57:51.629 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:51.677 ## Create Product without model
+17:57:51.778 * POST/products "json/product.json" with "model" " "
+17:57:51.935 * "POST" Response code must be "400"
+17:57:52.107 
+Failed Step: "POST" Response code must be "400"
+17:57:52.110 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+17:57:52.111 Specification: specs/product.md:92
+17:57:52.112 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+17:57:52.913 Plugin [Html Report] with pid [24] has exited
+17:57:52.917 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:57:52.926 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+17:57:52.927 
+Total time taken: 3.346s
+17:59:52.091 Plugin ruby is already installed.
+17:59:52.093 Plugin html-report is already installed.
+17:59:52.094 Installing required plugins.
+17:59:52.095 Installing plugin 'screenshot'
+17:59:52.096 Gathering metadata for screenshot
+17:59:53.822 Downloading screenshot-0.0.1-linux.x86_64.zip
+17:59:53.822 Checking updates...
+18:00:01.256 Installing plugin screenshot 0.0.1
+18:00:01.261 Successfully installed plugin 'screenshot'.
+18:00:05.946 # Product
+18:00:06.048 ## Create Product without name
+18:00:06.148 * POST/products "json/product.json" with "name" ""
+18:00:06.306 * "POST" Response code must be "400"
+18:00:06.487 
+Failed Step: "POST" Response code must be "400"
+18:00:06.489 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:06.490 Specification: specs/product.md:53
+18:00:06.490 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:06.536 ## Create Product without type
+18:00:06.637 * POST/products "json/product.json" with "type" ""
+18:00:06.801 * "POST" Response code must be "400"
+18:00:06.969 
+Failed Step: "POST" Response code must be "400"
+18:00:06.970 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:06.971 Specification: specs/product.md:60
+18:00:06.972 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:07.021 ## Create Product without upc
+18:00:07.121 * POST/products "json/product.json" with "upc" ""
+18:00:07.282 * "POST" Response code must be "400"
+18:00:07.458 
+Failed Step: "POST" Response code must be "400"
+18:00:07.461 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:07.462 Specification: specs/product.md:68
+18:00:07.462 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:07.511 ## Create Product with invalid price
+18:00:07.606 * POST/products "json/product.json" with "price" "x"
+18:00:07.769 * "POST" Response code must be "400"
+18:00:07.964 
+Failed Step: "POST" Response code must be "400"
+18:00:07.965 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:07.967 Specification: specs/product.md:76
+18:00:07.967 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:08.007 ## Create Product without description
+18:00:08.106 * POST/products "json/product.json" with "description" ""
+18:00:08.256 * "POST" Response code must be "400"
+18:00:08.429 
+Failed Step: "POST" Response code must be "400"
+18:00:08.430 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:08.431 Specification: specs/product.md:84
+18:00:08.432 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:08.477 ## Create Product without model
+18:00:08.579 * POST/products "json/product.json" with "model" ""
+18:00:08.737 * "POST" Response code must be "400"
+18:00:08.908 
+Failed Step: "POST" Response code must be "400"
+18:00:08.910 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:08.911 Specification: specs/product.md:92
+18:00:08.912 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:09.512 Plugin [Html Report] with pid [21] has exited
+18:00:09.514 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:00:09.515 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:00:09.516 
+Total time taken: 3.364s
+18:00:45.984 Plugin ruby is already installed.
+18:00:45.987 Plugin html-report is already installed.
+18:00:45.988 Installing required plugins.
+18:00:45.989 Installing plugin 'screenshot'
+18:00:45.989 Gathering metadata for screenshot
+18:00:47.175 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:00:47.176 Checking updates...
+18:00:53.647 Installing plugin screenshot 0.0.1
+18:00:53.652 Successfully installed plugin 'screenshot'.
+18:00:58.640 # Product
+18:00:58.739 ## Create Product without name
+18:00:58.843 * POST/products "json/product.json" with "name" ""
+18:00:58.999 * "POST" Response code must be "400"
+18:00:59.169 
+Failed Step: "POST" Response code must be "400"
+18:00:59.171 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:59.171 Specification: specs/product.md:53
+18:00:59.172 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:59.219 ## Create Product without type
+18:00:59.319 * POST/products "json/product.json" with "type" ""
+18:00:59.483 * "POST" Response code must be "400"
+18:00:59.643 
+Failed Step: "POST" Response code must be "400"
+18:00:59.644 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:00:59.645 Specification: specs/product.md:60
+18:00:59.646 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:00:59.688 ## Create Product without upc
+18:00:59.788 * POST/products "json/product.json" with "upc" ""
+18:00:59.950 * "POST" Response code must be "400"
+18:01:00.110 
+Failed Step: "POST" Response code must be "400"
+18:01:00.111 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:00.112 Specification: specs/product.md:68
+18:01:00.113 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:00.161 ## Create Product with invalid price
+18:01:00.261 * POST/products "json/product.json" with "price" "x"
+18:01:00.428 * "POST" Response code must be "400"
+18:01:00.600 
+Failed Step: "POST" Response code must be "400"
+18:01:00.601 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:00.602 Specification: specs/product.md:76
+18:01:00.604 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:00.647 ## Create Product without description
+18:01:00.747 * POST/products "json/product.json" with "description" ""
+18:01:00.910 * "POST" Response code must be "400"
+18:01:01.081 
+Failed Step: "POST" Response code must be "400"
+18:01:01.083 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:01.084 Specification: specs/product.md:84
+18:01:01.085 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:01.129 ## Create Product without model
+18:01:01.228 * POST/products "json/product.json" with "model" ""
+18:01:01.388 * "POST" Response code must be "400"
+18:01:01.549 
+Failed Step: "POST" Response code must be "400"
+18:01:01.551 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:01.551 Specification: specs/product.md:92
+18:01:01.552 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:02.368 Plugin [Html Report] with pid [22] has exited
+18:01:02.369 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:01:02.373 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:01:02.379 
+Total time taken: 3.326s
+18:01:35.587 Plugin ruby is already installed.
+18:01:35.589 Plugin html-report is already installed.
+18:01:35.590 Installing required plugins.
+18:01:35.591 Installing plugin 'screenshot'
+18:01:35.591 Gathering metadata for screenshot
+18:01:36.759 Checking updates...
+18:01:36.793 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:01:45.078 Installing plugin screenshot 0.0.1
+18:01:45.083 Successfully installed plugin 'screenshot'.
+18:01:51.720 # Product
+18:01:51.821 ## Create Product without name
+18:01:51.924 * POST/products "json/product.json" with "name" ""
+18:01:52.079 * "POST" Response code must be "400"
+18:01:52.251 
+Failed Step: "POST" Response code must be "400"
+18:01:52.252 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:52.253 Specification: specs/product.md:53
+18:01:52.254 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:52.301 ## Create Product without type
+18:01:52.400 * POST/products "json/product.json" with "type" ""
+18:01:52.562 * "POST" Response code must be "400"
+18:01:52.731 
+Failed Step: "POST" Response code must be "400"
+18:01:52.733 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:52.734 Specification: specs/product.md:60
+18:01:52.735 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:52.783 ## Create Product without upc
+18:01:52.878 * POST/products "json/product.json" with "upc" ""
+18:01:53.039 * "POST" Response code must be "400"
+18:01:53.210 
+Failed Step: "POST" Response code must be "400"
+18:01:53.212 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:53.214 Specification: specs/product.md:68
+18:01:53.214 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:53.260 ## Create Product with invalid price
+18:01:53.360 * POST/products "json/product.json" with "price" "x"
+18:01:53.540 * "POST" Response code must be "400"
+18:01:53.700 
+Failed Step: "POST" Response code must be "400"
+18:01:53.702 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:53.704 Specification: specs/product.md:76
+18:01:53.706 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:53.749 ## Create Product without description
+18:01:53.851 * POST/products "json/product.json" with "description" ""
+18:01:54.010 * "POST" Response code must be "400"
+18:01:54.170 
+Failed Step: "POST" Response code must be "400"
+18:01:54.171 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:54.173 Specification: specs/product.md:84
+18:01:54.173 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:54.220 ## Create Product without model
+18:01:54.324 * POST/products "json/product.json" with "model" ""
+18:01:54.479 * "POST" Response code must be "400"
+18:01:54.650 
+Failed Step: "POST" Response code must be "400"
+18:01:54.651 Error Message: 
+expected: 400
+     got: 500
+
+(compared using ==)
+18:01:54.652 Specification: specs/product.md:92
+18:01:54.653 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:01:55.469 Plugin [Html Report] with pid [25] has exited
+18:01:55.472 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:01:55.479 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:01:55.487 
+Total time taken: 3.357s
+18:02:54.953 Plugin ruby is already installed.
+18:02:54.956 Plugin html-report is already installed.
+18:02:54.957 Installing required plugins.
+18:02:54.959 Installing plugin 'screenshot'
+18:02:54.959 Gathering metadata for screenshot
+18:02:56.497 Checking updates...
+18:02:56.516 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:03:04.894 Installing plugin screenshot 0.0.1
+18:03:04.900 Successfully installed plugin 'screenshot'.
+18:03:10.662 # Product
+18:03:10.764 ## Create Product without name
+18:03:10.865 * POST/products "json/product.json" with "name" ""
+18:03:11.070 
+Failed Step: POST/products "json/product.json" with "name" ""
+18:03:11.071 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:11.072 Specification: specs/product.md:52
+18:03:11.073 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:11.122 ## Create Product without type
+18:03:11.221 * POST/products "json/product.json" with "type" ""
+18:03:11.412 
+Failed Step: POST/products "json/product.json" with "type" ""
+18:03:11.414 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:11.415 Specification: specs/product.md:59
+18:03:11.416 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:11.464 ## Create Product without upc
+18:03:11.572 * POST/products "json/product.json" with "upc" ""
+18:03:11.770 
+Failed Step: POST/products "json/product.json" with "upc" ""
+18:03:11.772 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:11.773 Specification: specs/product.md:67
+18:03:11.773 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:11.819 ## Create Product with invalid price
+18:03:11.922 * POST/products "json/product.json" with "price" "x"
+18:03:12.113 
+Failed Step: POST/products "json/product.json" with "price" "x"
+18:03:12.116 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:12.117 Specification: specs/product.md:75
+18:03:12.118 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:12.160 ## Create Product without description
+18:03:12.264 * POST/products "json/product.json" with "description" ""
+18:03:12.455 
+Failed Step: POST/products "json/product.json" with "description" ""
+18:03:12.457 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:12.457 Specification: specs/product.md:83
+18:03:12.458 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:12.499 ## Create Product without model
+18:03:12.600 * POST/products "json/product.json" with "model" ""
+18:03:12.811 
+Failed Step: POST/products "json/product.json" with "model" ""
+18:03:12.813 Error Message: undefined local variable or method `request' for main:Object
+Did you mean?  require
+18:03:12.814 Specification: specs/product.md:91
+18:03:12.814 Stacktrace: 
+
+> 61 | DataStore.keep('POST_request_body', request)
+
+/app/step_implementations/product_steps.rb:61:in `block in <top (required)>'
+18:03:13.923 Plugin [Html Report] with pid [25] has exited
+18:03:13.925 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:03:13.927 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:03:13.928 
+Total time taken: 2.565s
+18:04:22.144 Plugin ruby is already installed.
+18:04:22.147 Plugin html-report is already installed.
+18:04:22.148 Installing required plugins.
+18:04:22.149 Installing plugin 'screenshot'
+18:04:22.150 Gathering metadata for screenshot
+18:04:23.937 Checking updates...
+18:04:23.940 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:04:32.076 Installing plugin screenshot 0.0.1
+18:04:32.081 Successfully installed plugin 'screenshot'.
+18:04:37.649 # Product
+18:04:37.748 ## Create Product without name
+18:04:37.849 * POST/products "json/product.json" with "name" ""
+18:04:38.021 * "POST" Response code must be "400"
+18:04:38.181 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:38.372 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:38.374 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:38.375 Specification: specs/product.md:54
+18:04:38.375 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:38.422 ## Create Product without type
+18:04:38.520 * POST/products "json/product.json" with "type" ""
+18:04:38.703 * "POST" Response code must be "400"
+18:04:38.859 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:39.028 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:39.030 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:39.031 Specification: specs/product.md:61
+18:04:39.032 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:39.090 ## Create Product without upc
+18:04:39.190 * POST/products "json/product.json" with "upc" ""
+18:04:39.347 * "POST" Response code must be "400"
+18:04:39.499 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:39.666 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:39.669 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:39.670 Specification: specs/product.md:69
+18:04:39.671 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:39.719 ## Create Product with invalid price
+18:04:39.818 * POST/products "json/product.json" with "price" "x"
+18:04:39.997 * "POST" Response code must be "400"
+18:04:40.147 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:40.306 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:40.308 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:40.319 Specification: specs/product.md:77
+18:04:40.321 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:40.367 ## Create Product without description
+18:04:40.466 * POST/products "json/product.json" with "description" ""
+18:04:40.627 * "POST" Response code must be "400"
+18:04:40.781 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:40.949 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:40.950 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:40.951 Specification: specs/product.md:85
+18:04:40.952 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:40.997 ## Create Product without model
+18:04:41.097 * POST/products "json/product.json" with "model" ""
+18:04:41.277 * "POST" Response code must be "400"
+18:04:41.431 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:04:41.597 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:04:41.598 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:04:41.601 Specification: specs/product.md:93
+18:04:41.603 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:04:42.706 Plugin [Html Report] with pid [23] has exited
+18:04:42.708 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:04:42.710 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:04:42.712 
+Total time taken: 4.373s
+18:06:33.849 Plugin ruby is already installed.
+18:06:33.851 Plugin html-report is already installed.
+18:06:33.852 Installing required plugins.
+18:06:33.853 Installing plugin 'screenshot'
+18:06:33.854 Gathering metadata for screenshot
+18:06:35.525 Checking updates...
+18:06:35.530 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:06:44.834 Installing plugin screenshot 0.0.1
+18:06:44.839 Successfully installed plugin 'screenshot'.
+18:06:50.035 # Product
+18:06:50.135 ## Create Product without name
+18:06:50.234 * POST/products "json/product.json" with "name" ""
+18:06:50.445 * "POST" Response code must be "400"
+18:06:50.593 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:50.767 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:50.768 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:50.770 Specification: specs/product.md:54
+18:06:50.770 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:50.816 ## Create Product without type
+18:06:50.919 * POST/products "json/product.json" with "type" ""
+18:06:51.075 * "POST" Response code must be "400"
+18:06:51.226 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:51.397 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:51.398 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:51.400 Specification: specs/product.md:61
+18:06:51.401 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:51.447 ## Create Product without upc
+18:06:51.547 * POST/products "json/product.json" with "upc" ""
+18:06:51.714 * "POST" Response code must be "400"
+18:06:51.867 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:52.035 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:52.037 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:52.038 Specification: specs/product.md:69
+18:06:52.039 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:52.084 ## Create Product with invalid price
+18:06:52.265 * POST/products "json/product.json" with "price" "x"
+18:06:52.424 * "POST" Response code must be "400"
+18:06:52.575 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:52.765 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:52.767 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:52.768 Specification: specs/product.md:77
+18:06:52.769 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:52.818 ## Create Product without description
+18:06:52.914 * POST/products "json/product.json" with "description" ""
+18:06:53.076 * "POST" Response code must be "400"
+18:06:53.224 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:53.395 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:53.396 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:53.397 Specification: specs/product.md:85
+18:06:53.398 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:53.444 ## Create Product without model
+18:06:53.544 * POST/products "json/product.json" with "model" ""
+18:06:53.709 * "POST" Response code must be "400"
+18:06:53.856 * Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:06:54.014 
+Failed Step: Message must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:06:54.016 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "Invalid Parameters"
+
+(compared using ==)
+18:06:54.017 Specification: specs/product.md:93
+18:06:54.018 Stacktrace: 
+
+> 20 | expect(response_body['message']).to eq(message)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:06:54.826 Plugin [Html Report] with pid [25] has exited
+18:06:54.826 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:06:54.828 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:06:54.829 
+Total time taken: 4.4s
+18:08:36.058 Plugin ruby is already installed.
+18:08:36.061 Plugin html-report is already installed.
+18:08:36.062 Installing required plugins.
+18:08:36.066 Installing plugin 'screenshot'
+18:08:36.070 Gathering metadata for screenshot
+18:08:40.361 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:08:40.362 Checking updates...
+18:08:51.841 Installing plugin screenshot 0.0.1
+18:08:51.846 Successfully installed plugin 'screenshot'.
+18:08:56.848 # Product
+18:08:56.949 ## Create Product without name
+18:08:57.048 * POST/products "json/product.json" with "name" ""
+18:08:57.220 * "POST" Response code must be "400"
+18:08:57.368 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:08:57.539 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:08:57.541 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'name' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:08:57.541 Specification: specs/product.md:54
+18:08:57.542 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:08:57.587 ## Create Product without type
+18:08:57.688 * POST/products "json/product.json" with "type" ""
+18:08:57.856 * "POST" Response code must be "400"
+18:08:58.010 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:08:58.189 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:08:58.192 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'type' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:08:58.192 Specification: specs/product.md:61
+18:08:58.193 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:08:58.247 ## Create Product without upc
+18:08:58.349 * POST/products "json/product.json" with "upc" ""
+18:08:58.507 * "POST" Response code must be "400"
+18:08:58.659 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:08:58.839 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:08:58.840 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'upc' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:08:58.843 Specification: specs/product.md:69
+18:08:58.844 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:08:58.888 ## Create Product with invalid price
+18:08:58.999 * POST/products "json/product.json" with "price" "x"
+18:08:59.170 * "POST" Response code must be "400"
+18:08:59.317 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:08:59.489 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:08:59.490 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'price' should be number"
+
+(compared using ==)
+18:08:59.492 Specification: specs/product.md:77
+18:08:59.493 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:08:59.540 ## Create Product without description
+18:08:59.640 * POST/products "json/product.json" with "description" ""
+18:08:59.809 * "POST" Response code must be "400"
+18:08:59.961 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:09:00.127 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:09:00.128 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'description' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:09:00.130 Specification: specs/product.md:85
+18:09:00.130 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:09:00.178 ## Create Product without model
+18:09:00.279 * POST/products "json/product.json" with "model" ""
+18:09:00.456 * "POST" Response code must be "400"
+18:09:00.608 * Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+
+18:09:00.778 
+Failed Step: Error must be "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+18:09:00.780 Error Message: 
+expected: "The job is currently being processed. Use the provided token to retrieve the logs at a later time at /logs?token={token}"
+     got: "'model' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:09:00.781 Specification: specs/product.md:93
+18:09:00.782 Stacktrace: 
+
+> 20 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:20:in `block in <top (required)>'
+18:09:01.586 Plugin [Html Report] with pid [24] has exited
+18:09:01.593 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:09:01.596 Scenarios:	6 executed	0 passed	6 failed	0 skipped
+18:09:01.608 
+Total time taken: 4.365s
+18:11:13.599 Plugin ruby is already installed.
+18:11:13.602 Plugin html-report is already installed.
+18:11:13.603 Installing required plugins.
+18:11:13.603 Installing plugin 'screenshot'
+18:11:13.604 Gathering metadata for screenshot
+18:11:15.200 Checking updates...
+18:11:15.211 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:11:24.538 Installing plugin screenshot 0.0.1
+18:11:24.544 Successfully installed plugin 'screenshot'.
+18:11:29.579 # Product
+18:11:29.679 ## Create Product
+18:11:29.783 * POST/products "json/product.json"
+18:11:29.961 * "POST" Response code must be "201"
+18:11:30.114 * Validate product created from response
+
+18:11:30.317 ## Get Product by ID
+18:11:30.419 * GET/products?"id=9999679"
+18:11:30.579 * "GET" Response code must be "200"
+
+18:11:30.788 ## Get Highest Priced Products
+18:11:30.890 * GET/products?"$sort[price]=-1"
+18:11:31.231 * "GET" Response code must be "200"
+
+18:11:31.427 ## Get Product Name and Description Only
+18:11:31.527 * GET/products?"$select[]=name&$select[]=description"
+18:11:31.702 * "GET" Response code must be "200"
+
+18:11:31.900 ## Get TVs with free shipping and price between $500 and $800
+18:11:32.000 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+18:11:32.424 * "GET" Response code must be "200"
+
+18:11:32.630 ## List Products
+18:11:32.732 * GET/products
+18:11:33.040 * "GET" Response code must be "200"
+
+18:11:33.243 ## Create Product without name
+18:11:33.352 * POST/products "json/product.json" with "name" ""
+18:11:33.509 * "POST" Response code must be "400"
+18:11:33.660 * Error must be "name' should NOT be shorter than 1 characters"
+
+18:11:33.848 
+Failed Step: Error must be "name' should NOT be shorter than 1 characters"
+18:11:33.851 Error Message: 
+expected: "name' should NOT be shorter than 1 characters"
+     got: "'name' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:11:33.851 Specification: specs/product.md:54
+18:11:33.852 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:11:33.900 ## Create Product without type
+18:11:34.002 * POST/products "json/product.json" with "type" ""
+18:11:34.169 * "POST" Response code must be "400"
+18:11:34.320 * Error must be "'type' should NOT be shorter than 1 characters"
+
+18:11:34.518 ## Create Product without upc
+18:11:34.618 * POST/products "json/product.json" with "upc" ""
+18:11:34.782 * "POST" Response code must be "400"
+18:11:34.928 * Error must be "'upc' should NOT be shorter than 1 characters"
+
+18:11:35.129 ## Create Product with invalid price
+18:11:35.232 * POST/products "json/product.json" with "price" "x"
+18:11:35.401 * "POST" Response code must be "400"
+18:11:35.551 * Error must be "'price' should be number"
+
+18:11:35.748 ## Create Product without description
+18:11:35.849 * POST/products "json/product.json" with "description" ""
+18:11:36.010 * "POST" Response code must be "400"
+18:11:36.162 * Error must be "'description' should NOT be shorter than 1 characters"
+
+18:11:36.360 ## Create Product without model
+18:11:36.463 * POST/products "json/product.json" with "model" ""
+18:11:36.620 * "POST" Response code must be "400"
+18:11:36.770 * Error must be "'model' should NOT be shorter than 1 characters"
+
+18:11:37.824 Plugin [Html Report] with pid [21] has exited
+18:11:37.825 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:11:37.827 Scenarios:	12 executed	11 passed	1 failed	0 skipped
+18:11:37.829 
+Total time taken: 7.743s
+18:14:07.552 Plugin ruby is already installed.
+18:14:07.563 Plugin html-report is already installed.
+18:14:07.564 Installing required plugins.
+18:14:07.566 Installing plugin 'screenshot'
+18:14:07.566 Gathering metadata for screenshot
+18:14:08.886 Checking updates...
+18:14:09.173 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:14:17.752 Installing plugin screenshot 0.0.1
+18:14:17.758 Successfully installed plugin 'screenshot'.
+18:14:23.152 # Product
+18:14:23.252 ## Create Product
+18:14:23.355 * POST/products "json/product.json"
+18:14:23.513 * "POST" Response code must be "201"
+18:14:23.673 * Validate product created from response
+
+18:14:23.873 ## Get Product by ID
+18:14:23.973 * GET/products?"id=9999679"
+18:14:24.132 * "GET" Response code must be "200"
+
+18:14:24.334 ## Get Highest Priced Products
+18:14:24.431 * GET/products?"$sort[price]=-1"
+18:14:24.753 * "GET" Response code must be "200"
+
+18:14:24.950 ## Get Product Name and Description Only
+18:14:25.051 * GET/products?"$select[]=name&$select[]=description"
+18:14:25.222 * "GET" Response code must be "200"
+
+18:14:25.422 ## Get TVs with free shipping and price between $500 and $800
+18:14:25.520 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+18:14:25.921 * "GET" Response code must be "200"
+
+18:14:26.132 ## List Products
+18:14:26.231 * GET/products
+18:14:26.546 * "GET" Response code must be "200"
+
+18:14:26.749 ## Create Product without name
+18:14:26.854 * POST/products "json/product.json" with "name" ""
+18:14:27.011 * "POST" Response code must be "400"
+18:14:27.159 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:14:27.359 ## Create Product without type
+18:14:27.459 * POST/products "json/product.json" with "type" ""
+18:14:27.623 * "POST" Response code must be "400"
+18:14:27.852 * Error must be "'type' should NOT be shorter than 1 characters"
+
+18:14:27.999 ## Create Product without upc
+18:14:28.102 * POST/products "json/product.json" with "upc" ""
+18:14:28.270 * "POST" Response code must be "400"
+18:14:28.427 * Error must be "'upc' should NOT be shorter than 1 characters"
+
+18:14:28.631 ## Create Product with invalid price
+18:14:28.734 * POST/products "json/product.json" with "price" "x"
+18:14:28.892 * "POST" Response code must be "400"
+18:14:29.044 * Error must be "'price' should be number"
+
+18:14:29.241 ## Create Product without description
+18:14:29.339 * POST/products "json/product.json" with "description" ""
+18:14:29.499 * "POST" Response code must be "400"
+18:14:29.654 * Error must be "'description' should NOT be shorter than 1 characters"
+
+18:14:29.849 ## Create Product without model
+18:14:29.951 * POST/products "json/product.json" with "model" ""
+18:14:30.113 * "POST" Response code must be "400"
+18:14:30.263 * Error must be "'model' should NOT be shorter than 1 characters"
+
+18:14:31.330 Plugin [Html Report] with pid [21] has exited
+18:14:31.331 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:14:31.332 Scenarios:	12 executed	12 passed	0 failed	0 skipped
+18:14:31.333 
+Total time taken: 7.657s
+18:32:19.187 Plugin ruby is already installed.
+18:32:19.190 Plugin html-report is already installed.
+18:32:19.190 Installing required plugins.
+18:32:19.191 Installing plugin 'screenshot'
+18:32:19.192 Gathering metadata for screenshot
+18:32:20.771 Checking updates...
+18:32:20.774 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:32:26.358 Installing plugin screenshot 0.0.1
+18:32:26.363 Successfully installed plugin 'screenshot'.
+18:32:31.288 [ValidationError] /app/specs/category.md:12 Step implementation not found => 'POST/categories "json/category.json"'
+18:32:31.290 [ValidationError] /app/specs/category.md:14 Step implementation not found => 'Validate category created from response'
+18:32:31.291 [ValidationError] /app/specs/category.md:29 Step implementation not found => 'GET/categories'
+18:32:31.293 [ValidationError] /app/specs/category.md:37 Step implementation not found => 'POST/categories "json/category.json" with "id" ""'
+18:32:31.294 [ValidationError] /app/specs/category.md:46 Step implementation not found => 'POST/categories "json/product.json" with "name" ""'
+18:32:31.618 # Category
+18:32:31.720 ## Get Categories with TV in the name
+18:32:31.817 * GET/products?"name[$like]=*TV*"
+18:32:32.022 * "GET" Response code must be "200"
+
+18:32:32.982 Plugin [Html Report] with pid [25] has exited
+18:32:32.983 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:32:32.985 Scenarios:	1 executed	1 passed	0 failed	4 skipped
+18:32:32.986 
+Total time taken: 973ms
+18:32:54.915 Plugin ruby is already installed.
+18:32:54.932 Plugin html-report is already installed.
+18:32:54.934 Installing required plugins.
+18:32:54.936 Installing plugin 'screenshot'
+18:32:54.938 Gathering metadata for screenshot
+18:32:56.859 Checking updates...
+18:32:56.864 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:33:04.118 Installing plugin screenshot 0.0.1
+18:33:04.124 Successfully installed plugin 'screenshot'.
+18:33:08.983 [ValidationError] /app/specs/category.md:14 Step implementation not found => 'Validate category created from response'
+18:33:09.324 # Category
+18:33:09.424 ## Get Categories with TV in the name
+18:33:09.525 * GET/products?"name[$like]=*TV*"
+18:33:09.764 * "GET" Response code must be "200"
+
+18:33:09.972 ## List Categories
+18:33:10.075 * GET/categories
+18:33:10.329 * "GET" Response code must be "200"
+
+18:33:10.522 ## Create Category without id
+18:33:10.627 * POST/categories "json/category.json" with "id" ""
+18:33:10.793 
+Failed Step: POST/categories "json/category.json" with "id" ""
+18:33:10.794 Error Message: undefined local variable or method `json_path' for main:Object
+18:33:10.795 Specification: specs/category.md:37
+18:33:10.796 Stacktrace: 
+
+> 31 | file = File.open(json_path, "r")
+
+/app/step_implementations/category_steps.rb:31:in `block in <top (required)>'
+18:33:10.844 ## Create Category without name
+18:33:10.946 * POST/categories "json/product.json" with "name" ""
+18:33:11.114 
+Failed Step: POST/categories "json/product.json" with "name" ""
+18:33:11.116 Error Message: undefined local variable or method `json_path' for main:Object
+18:33:11.117 Specification: specs/category.md:46
+18:33:11.117 Stacktrace: 
+
+> 31 | file = File.open(json_path, "r")
+
+/app/step_implementations/category_steps.rb:31:in `block in <top (required)>'
+18:33:11.821 Plugin [Html Report] with pid [21] has exited
+18:33:11.822 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:33:11.825 Scenarios:	4 executed	2 passed	2 failed	1 skipped
+18:33:11.826 
+Total time taken: 2.216s
+18:34:19.552 Plugin ruby is already installed.
+18:34:19.554 Plugin html-report is already installed.
+18:34:19.556 Installing required plugins.
+18:34:19.556 Installing plugin 'screenshot'
+18:34:19.557 Gathering metadata for screenshot
+18:34:21.809 Checking updates...
+18:34:21.810 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:34:29.683 Installing plugin screenshot 0.0.1
+18:34:29.689 Successfully installed plugin 'screenshot'.
+18:34:34.289 [ValidationError] /app/specs/category.md:14 Step implementation not found => 'Validate category created from response'
+18:34:34.621 # Category
+18:34:34.720 ## Get Categories with TV in the name
+18:34:34.824 * GET/products?"name[$like]=*TV*"
+18:34:35.010 * "GET" Response code must be "200"
+
+18:34:35.214 ## List Categories
+18:34:35.313 * GET/categories
+18:34:35.512 * "GET" Response code must be "200"
+
+18:34:35.711 ## Create Category without id
+18:34:35.812 * POST/categories "json/category.json" with "id" ""
+18:34:35.981 * "POST" Response code must be "400"
+18:34:36.135 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:34:36.300 
+Failed Step: Error must be "'name' should NOT be shorter than 1 characters"
+18:34:36.301 Error Message: 
+expected: "'name' should NOT be shorter than 1 characters"
+     got: "should NOT have additional properties: 'id'"
+
+(compared using ==)
+18:34:36.303 Specification: specs/category.md:39
+18:34:36.304 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:34:36.349 ## Create Category without name
+18:34:36.452 * POST/categories "json/category.json" with "name" ""
+18:34:36.620 * "POST" Response code must be "400"
+18:34:36.772 * Error must be "'name' should NOT be shorter than 1 characters"
+18:34:36.931 
+Failed Step: Error must be "'name' should NOT be shorter than 1 characters"
+18:34:36.933 Error Message: 
+expected: "'name' should NOT be shorter than 1 characters"
+     got: "should NOT have additional properties: 'id'"
+
+(compared using ==)
+18:34:36.934 Specification: specs/category.md:48
+18:34:36.935 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:34:37.535 Plugin [Html Report] with pid [21] has exited
+18:34:37.536 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:34:37.540 Scenarios:	4 executed	2 passed	2 failed	1 skipped
+18:34:37.541 
+Total time taken: 2.732s
+18:35:30.531 Plugin ruby is already installed.
+18:35:30.534 Plugin html-report is already installed.
+18:35:30.535 Installing required plugins.
+18:35:30.536 Installing plugin 'screenshot'
+18:35:30.537 Gathering metadata for screenshot
+18:35:31.777 Checking updates...
+18:35:31.892 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:35:39.520 Installing plugin screenshot 0.0.1
+18:35:39.528 Successfully installed plugin 'screenshot'.
+18:35:44.314 [ValidationError] /app/specs/category.md:14 Step implementation not found => 'Validate category created from response'
+18:35:44.642 # Category
+18:35:44.746 ## Get Categories with TV in the name
+18:35:44.843 * GET/products?"name[$like]=*TV*"
+18:35:45.042 * "GET" Response code must be "200"
+
+18:35:45.245 ## List Categories
+18:35:45.341 * GET/categories
+18:35:45.496 * "GET" Response code must be "200"
+
+18:35:45.701 ## Create Category without id
+18:35:45.798 * POST/categories "json/category.json" with "id" ""
+18:35:45.968 * "POST" Response code must be "400"
+18:35:46.117 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:35:46.289 
+Failed Step: Error must be "'name' should NOT be shorter than 1 characters"
+18:35:46.291 Error Message: 
+expected: "'name' should NOT be shorter than 1 characters"
+     got: "'id' should NOT be shorter than 1 characters"
+
+(compared using ==)
+18:35:46.291 Specification: specs/category.md:39
+18:35:46.292 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:35:46.341 ## Create Category without name
+18:35:46.437 * POST/categories "json/category.json" with "name" ""
+18:35:46.601 * "POST" Response code must be "400"
+18:35:46.758 * Error must be "'name' should NOT be shorter than 1 characters"
+18:35:47.713 Plugin [Html Report] with pid [21] has exited
+18:35:47.715 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:35:47.716 Scenarios:	4 executed	3 passed	1 failed	1 skipped
+18:35:47.717 
+Total time taken: 2.719s
+18:36:23.959 Plugin ruby is already installed.
+18:36:23.961 Plugin html-report is already installed.
+18:36:23.961 Installing required plugins.
+18:36:23.963 Installing plugin 'screenshot'
+18:36:23.963 Gathering metadata for screenshot
+18:36:25.290 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:36:25.292 Checking updates...
+18:36:32.673 Installing plugin screenshot 0.0.1
+18:36:32.679 Successfully installed plugin 'screenshot'.
+18:36:37.874 # Category
+18:36:37.977 ## Create Category without id
+18:36:38.073 * POST/categories "json/category.json" with "id" ""
+18:36:38.246 * "POST" Response code must be "400"
+18:36:38.393 * Error must be "'id' should NOT be shorter than 1 characters"
+
+18:36:38.950 Plugin [Html Report] with pid [21] has exited
+18:36:38.952 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:36:38.954 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:36:38.955 
+Total time taken: 1.076s
+18:54:27.350 Plugin ruby is already installed.
+18:54:27.354 Plugin html-report is already installed.
+18:54:27.355 Installing required plugins.
+18:54:27.356 Installing plugin 'screenshot'
+18:54:27.358 Gathering metadata for screenshot
+18:54:28.497 Checking updates...
+18:54:28.499 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:54:33.008 Installing plugin screenshot 0.0.1
+18:54:33.014 Successfully installed plugin 'screenshot'.
+18:54:38.392 # Stores
+18:54:38.493 ## Create Store
+18:54:38.597 * POST/stores "json/store.json"
+18:54:38.765 * "POST" Response code must be "201"
+18:54:38.914 * Validate store created from response
+
+18:54:39.114 ## Get Store by ID
+18:54:39.212 * GET/stores?"id=9999679"
+18:54:39.365 * "GET" Response code must be "200"
+
+18:54:39.565 ## Get stores in Minnesota
+18:54:39.663 * GET/stores?"state=MN"
+18:54:39.876 * "GET" Response code must be "200"
+
+18:54:40.084 ## List Stores
+18:54:40.185 * GET/stores
+18:54:40.375 * "GET" Response code must be "200"
+
+18:54:40.572 ## Create Store without name
+18:54:40.673 * POST/stores "json/store.json" with "name" ""
+18:54:40.834 * "POST" Response code must be "400"
+18:54:40.987 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:54:41.183 ## Create Store without type
+18:54:41.285 * POST/stores "json/store.json" with "type" ""
+18:54:41.444 * "POST" Response code must be "400"
+18:54:41.595 * Error must be "'type' should NOT be shorter than 1 characters"
+
+18:54:41.792 ## Create Store without address
+18:54:41.892 * POST/stores "json/store.json" with "address" ""
+18:54:42.056 * "POST" Response code must be "400"
+18:54:42.616 * Error must be "'address' should NOT be shorter than 1 characters"
+
+18:54:42.814 ## Create Store without city
+18:54:42.912 * POST/stores "json/store.json" with "city" ""
+18:54:43.076 * "POST" Response code must be "400"
+18:54:43.227 * Error must be "'city' should NOT be shorter than 1 characters"
+
+18:54:43.422 ## Create Store without state
+18:54:43.522 * POST/stores "json/store.json" with "state" ""
+18:54:43.685 * "POST" Response code must be "400"
+18:54:43.837 * Error must be "'state' should NOT be shorter than 1 characters"
+
+18:54:44.032 ## Create Store with invalid zip
+18:54:44.138 * POST/stores "json/store.json" with "zip" "Test"
+18:54:44.302 * "POST" Response code must be "400"
+18:54:44.440 
+Failed Step: "POST" Response code must be "400"
+18:54:44.442 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+18:54:44.443 Specification: specs/store.md:91
+18:54:44.443 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:54:44.489 ## Create Store with invalid lat
+18:54:44.590 * POST/stores "json/store.json" with "lat" "Test"
+18:54:44.749 * "POST" Response code must be "400"
+18:54:44.903 * Error must be "'lat' should NOT be shorter than 1 characters"
+
+18:54:45.079 
+Failed Step: Error must be "'lat' should NOT be shorter than 1 characters"
+18:54:45.082 Error Message: 
+expected: "'lat' should NOT be shorter than 1 characters"
+     got: "'lat' should be number"
+
+(compared using ==)
+18:54:45.083 Specification: specs/store.md:101
+18:54:45.083 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:54:45.128 ## Create Store with invalid lng
+18:54:45.228 * POST/stores "json/store.json" with "lng" "Test"
+18:54:45.388 * "POST" Response code must be "400"
+18:54:45.540 * Error must be "'lng' should NOT be shorter than 1 characters"
+
+18:54:45.711 
+Failed Step: Error must be "'lng' should NOT be shorter than 1 characters"
+18:54:45.713 Error Message: 
+expected: "'lng' should NOT be shorter than 1 characters"
+     got: "'lng' should be number"
+
+(compared using ==)
+18:54:45.714 Specification: specs/store.md:110
+18:54:45.715 Stacktrace: 
+
+> 19 | expect(response_body['errors'][0]).to eq(error)
+
+/app/step_implementations/common_steps.rb:19:in `block in <top (required)>'
+18:54:45.759 ## Create Store with invalid hours
+18:54:45.859 * POST/stores "json/store.json" with "hours" "Test"
+18:54:46.021 * "POST" Response code must be "400"
+18:54:46.180 
+Failed Step: "POST" Response code must be "400"
+18:54:46.182 Error Message: 
+expected: 400
+     got: 201
+
+(compared using ==)
+18:54:46.184 Specification: specs/store.md:118
+18:54:46.185 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:54:47.698 Plugin [Html Report] with pid [23] has exited
+18:54:47.699 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:54:47.701 Scenarios:	13 executed	9 passed	4 failed	0 skipped
+18:54:47.702 
+Total time taken: 8.25s
+18:56:48.341 Plugin ruby is already installed.
+18:56:48.343 Plugin html-report is already installed.
+18:56:48.344 Installing required plugins.
+18:56:48.344 Installing plugin 'screenshot'
+18:56:48.345 Gathering metadata for screenshot
+18:56:51.135 Checking updates...
+18:56:51.184 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:56:57.325 Installing plugin screenshot 0.0.1
+18:56:57.331 Successfully installed plugin 'screenshot'.
+18:57:02.133 # Stores
+18:57:02.230 ## Create Store without zip
+18:57:02.333 * POST/stores "json/store.json" with "zip" ""
+18:57:02.492 * "POST" Response code must be "400"
+18:57:02.646 * Error must be "'zip' should NOT be shorter than 1 characters"
+
+18:57:02.841 ## Create Store with invalid lat
+18:57:02.945 * POST/stores "json/store.json" with "lat" "Test"
+18:57:03.101 * "POST" Response code must be "400"
+18:57:03.252 * Error must be "'lat' should be number"
+
+18:57:03.452 ## Create Store with invalid lng
+18:57:03.550 * POST/stores "json/store.json" with "lng" "Test"
+18:57:03.711 * "POST" Response code must be "400"
+18:57:03.867 * Error must be "'lng' should be number"
+
+18:57:04.070 ## Create Store without hours
+18:57:04.172 * POST/stores "json/store.json" with "hours" ""
+18:57:04.334 * "POST" Response code must be "400"
+18:57:04.490 * Error must be "'hours' should NOT be shorter than 1 characters"
+18:57:05.351 Plugin [Html Report] with pid [23] has exited
+18:57:05.355 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:57:05.362 Scenarios:	4 executed	4 passed	0 failed	0 skipped
+18:57:05.365 
+Total time taken: 2.927s
+18:57:56.630 Plugin ruby is already installed.
+18:57:56.635 Plugin html-report is already installed.
+18:57:56.636 Installing required plugins.
+18:57:56.637 Installing plugin 'screenshot'
+18:57:56.638 Gathering metadata for screenshot
+18:57:59.044 Checking updates...
+18:57:59.547 Downloading screenshot-0.0.1-linux.x86_64.zip
+18:58:06.411 Installing plugin screenshot 0.0.1
+18:58:06.419 Successfully installed plugin 'screenshot'.
+18:58:11.283 # Category
+18:58:11.382 ## Create Category
+18:58:11.482 * POST/categories "json/category.json"
+18:58:11.654 * "POST" Response code must be "201"
+18:58:11.831 
+Failed Step: "POST" Response code must be "201"
+18:58:11.834 Error Message: 
+expected: 201
+     got: 400
+
+(compared using ==)
+18:58:11.835 Specification: specs/category.md:13
+18:58:11.836 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+18:58:11.884 ## Get Categories with TV in the name
+18:58:11.982 * GET/products?"name[$like]=*TV*"
+18:58:12.188 * "GET" Response code must be "200"
+
+18:58:12.392 ## List Categories
+18:58:12.492 * GET/categories
+18:58:12.686 * "GET" Response code must be "200"
+
+18:58:12.881 ## Create Category without id
+18:58:12.983 * POST/categories "json/category.json" with "id" ""
+18:58:13.154 * "POST" Response code must be "400"
+18:58:13.308 * Error must be "'id' should NOT be shorter than 1 characters"
+
+18:58:13.513 ## Create Category without name
+18:58:13.616 * POST/categories "json/category.json" with "name" ""
+18:58:13.774 * "POST" Response code must be "400"
+18:58:13.922 * Error must be "'name' should NOT be shorter than 1 characters"
+18:58:14.138 # Product
+18:58:14.236 ## Create Product
+18:58:14.339 * POST/products "json/product.json"
+18:58:14.508 * "POST" Response code must be "201"
+18:58:14.658 * Validate product created from response
+
+18:58:14.859 ## Get Product by ID
+18:58:14.962 * GET/products?"id=9999679"
+18:58:15.121 * "GET" Response code must be "200"
+
+18:58:15.316 ## Get Highest Priced Products
+18:58:15.420 * GET/products?"$sort[price]=-1"
+18:58:15.738 * "GET" Response code must be "200"
+
+18:58:15.938 ## Get Product Name and Description Only
+18:58:16.378 * GET/products?"$select[]=name&$select[]=description"
+18:58:16.551 * "GET" Response code must be "200"
+
+18:58:16.747 ## Get TVs with free shipping and price between $500 and $800
+18:58:16.849 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+18:58:17.261 * "GET" Response code must be "200"
+
+18:58:17.460 ## List Products
+18:58:17.561 * GET/products
+18:58:17.948 * "GET" Response code must be "200"
+
+18:58:18.146 ## Create Product without name
+18:58:18.252 * POST/products "json/product.json" with "name" ""
+18:58:18.408 * "POST" Response code must be "400"
+18:58:18.560 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:58:18.769 ## Create Product without type
+18:58:18.869 * POST/products "json/product.json" with "type" ""
+18:58:19.028 * "POST" Response code must be "400"
+18:58:19.188 * Error must be "'type' should NOT be shorter than 1 characters"
+
+18:58:19.387 ## Create Product without upc
+18:58:19.488 * POST/products "json/product.json" with "upc" ""
+18:58:19.656 * "POST" Response code must be "400"
+18:58:19.811 * Error must be "'upc' should NOT be shorter than 1 characters"
+
+18:58:20.008 ## Create Product with invalid price
+18:58:20.109 * POST/products "json/product.json" with "price" "x"
+18:58:20.274 * "POST" Response code must be "400"
+18:58:20.428 * Error must be "'price' should be number"
+
+18:58:20.630 ## Create Product without description
+18:58:20.726 * POST/products "json/product.json" with "description" ""
+18:58:20.888 * "POST" Response code must be "400"
+18:58:21.038 * Error must be "'description' should NOT be shorter than 1 characters"
+
+18:58:21.236 ## Create Product without model
+18:58:21.348 * POST/products "json/product.json" with "model" ""
+18:58:21.509 * "POST" Response code must be "400"
+18:58:21.661 * Error must be "'model' should NOT be shorter than 1 characters"
+18:58:21.906 # Stores
+18:58:22.011 ## Create Store
+18:58:22.108 * POST/stores "json/store.json"
+18:58:22.277 * "POST" Response code must be "201"
+18:58:22.428 * Validate store created from response
+
+18:58:22.628 ## Get Store by ID
+18:58:22.730 * GET/stores?"id=9999679"
+18:58:22.878 * "GET" Response code must be "200"
+
+18:58:23.078 ## Get stores in Minnesota
+18:58:23.180 * GET/stores?"state=MN"
+18:58:23.398 * "GET" Response code must be "200"
+
+18:58:23.598 ## List Stores
+18:58:23.698 * GET/stores
+18:58:23.876 * "GET" Response code must be "200"
+
+18:58:24.081 ## Create Store without name
+18:58:24.176 * POST/stores "json/store.json" with "name" ""
+18:58:24.338 * "POST" Response code must be "400"
+18:58:24.491 * Error must be "'name' should NOT be shorter than 1 characters"
+
+18:58:24.689 ## Create Store without type
+18:58:24.790 * POST/stores "json/store.json" with "type" ""
+18:58:24.951 * "POST" Response code must be "400"
+18:58:25.109 * Error must be "'type' should NOT be shorter than 1 characters"
+
+18:58:25.308 ## Create Store without address
+18:58:25.409 * POST/stores "json/store.json" with "address" ""
+18:58:25.566 * "POST" Response code must be "400"
+18:58:25.720 * Error must be "'address' should NOT be shorter than 1 characters"
+
+18:58:25.917 ## Create Store without city
+18:58:26.016 * POST/stores "json/store.json" with "city" ""
+18:58:26.178 * "POST" Response code must be "400"
+18:58:26.327 * Error must be "'city' should NOT be shorter than 1 characters"
+
+18:58:26.528 ## Create Store without state
+18:58:26.632 * POST/stores "json/store.json" with "state" ""
+18:58:26.788 * "POST" Response code must be "400"
+18:58:26.941 * Error must be "'state' should NOT be shorter than 1 characters"
+
+18:58:27.137 ## Create Store without zip
+18:58:27.240 * POST/stores "json/store.json" with "zip" ""
+18:58:27.396 * "POST" Response code must be "400"
+18:58:27.549 * Error must be "'zip' should NOT be shorter than 1 characters"
+
+18:58:27.747 ## Create Store with invalid lat
+18:58:27.848 * POST/stores "json/store.json" with "lat" "Test"
+18:58:28.009 * "POST" Response code must be "400"
+18:58:28.158 * Error must be "'lat' should be number"
+
+18:58:28.356 ## Create Store with invalid lng
+18:58:28.462 * POST/stores "json/store.json" with "lng" "Test"
+18:58:28.620 * "POST" Response code must be "400"
+18:58:28.770 * Error must be "'lng' should be number"
+
+18:58:28.969 ## Create Store without hours
+18:58:29.067 * POST/stores "json/store.json" with "hours" ""
+18:58:29.229 * "POST" Response code must be "400"
+18:58:29.382 * Error must be "'hours' should NOT be shorter than 1 characters"
+18:58:31.439 Plugin [Html Report] with pid [23] has exited
+18:58:31.440 Specifications:	3 executed	2 passed	1 failed	0 skipped
+18:58:31.442 Scenarios:	30 executed	29 passed	1 failed	0 skipped
+18:58:31.444 
+Total time taken: 18.705s
+19:02:13.661 Plugin ruby is already installed.
+19:02:13.665 Plugin html-report is already installed.
+19:02:13.665 Installing required plugins.
+19:02:13.666 Installing plugin 'screenshot'
+19:02:13.667 Gathering metadata for screenshot
+19:02:15.378 Downloading screenshot-0.0.1-linux.x86_64.zip
+19:02:15.459 Checking updates...
+19:02:28.488 Installing plugin screenshot 0.0.1
+19:02:28.494 Successfully installed plugin 'screenshot'.
+19:02:34.333 # Category
+19:02:34.434 ## Create Category
+19:02:34.533 * POST/categories "json/category.json"
+19:02:34.713 
+Failed Step: POST/categories "json/category.json"
+19:02:34.715 Error Message: undefined local variable or method `id' for main:Object
+19:02:34.717 Specification: specs/category.md:12
+19:02:34.719 Stacktrace: 
+
+> 9 | request[id] = rand 1000
+
+/app/step_implementations/category_steps.rb:9:in `block in <top (required)>'
+19:02:34.763 ## Get Categories with TV in the name
+19:02:34.861 * GET/products?"name[$like]=*TV*"
+19:02:35.064 * "GET" Response code must be "200"
+
+19:02:35.262 ## List Categories
+19:02:35.360 * GET/categories
+19:02:35.563 * "GET" Response code must be "200"
+
+19:02:35.761 ## Create Category without id
+19:02:35.866 * POST/categories "json/category.json" with "id" ""
+19:02:36.031 * "POST" Response code must be "400"
+19:02:36.182 * Error must be "'id' should NOT be shorter than 1 characters"
+
+19:02:36.381 ## Create Category without name
+19:02:36.484 * POST/categories "json/category.json" with "name" ""
+19:02:36.653 * "POST" Response code must be "400"
+19:02:36.802 * Error must be "'name' should NOT be shorter than 1 characters"
+19:02:37.055 # Product
+19:02:37.156 ## Create Product
+19:02:37.253 * POST/products "json/product.json"
+19:02:37.430 * "POST" Response code must be "201"
+19:02:37.580 * Validate product created from response
+
+19:02:37.783 ## Get Product by ID
+19:02:37.882 * GET/products?"id=9999679"
+19:02:38.042 * "GET" Response code must be "200"
+
+19:02:38.240 ## Get Highest Priced Products
+19:02:38.341 * GET/products?"$sort[price]=-1"
+19:02:38.693 * "GET" Response code must be "200"
+
+19:02:38.891 ## Get Product Name and Description Only
+19:02:38.992 * GET/products?"$select[]=name&$select[]=description"
+19:02:39.162 * "GET" Response code must be "200"
+
+19:02:39.364 ## Get TVs with free shipping and price between $500 and $800
+19:02:39.465 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+19:02:39.886 * "GET" Response code must be "200"
+
+19:02:40.092 ## List Products
+19:02:40.191 * GET/products
+19:02:40.504 * "GET" Response code must be "200"
+
+19:02:40.701 ## Create Product without name
+19:02:40.801 * POST/products "json/product.json" with "name" ""
+19:02:40.962 * "POST" Response code must be "400"
+19:02:41.114 * Error must be "'name' should NOT be shorter than 1 characters"
+
+19:02:41.312 ## Create Product without type
+19:02:41.412 * POST/products "json/product.json" with "type" ""
+19:02:41.572 * "POST" Response code must be "400"
+19:02:41.723 * Error must be "'type' should NOT be shorter than 1 characters"
+
+19:02:41.927 ## Create Product without upc
+19:02:42.020 * POST/products "json/product.json" with "upc" ""
+19:02:42.182 * "POST" Response code must be "400"
+19:02:42.331 * Error must be "'upc' should NOT be shorter than 1 characters"
+
+19:02:42.532 ## Create Product with invalid price
+19:02:42.631 * POST/products "json/product.json" with "price" "x"
+19:02:42.792 * "POST" Response code must be "400"
+19:02:42.943 * Error must be "'price' should be number"
+
+19:02:43.150 ## Create Product without description
+19:02:43.252 * POST/products "json/product.json" with "description" ""
+19:02:43.422 * "POST" Response code must be "400"
+19:02:43.575 * Error must be "'description' should NOT be shorter than 1 characters"
+
+19:02:43.771 ## Create Product without model
+19:02:43.837 * POST/products "json/product.json" with "model" ""
+19:02:44.002 * "POST" Response code must be "400"
+19:02:44.147 * Error must be "'model' should NOT be shorter than 1 characters"
+19:02:44.396 # Stores
+19:02:44.497 ## Create Store
+19:02:44.597 * POST/stores "json/store.json"
+19:02:44.770 * "POST" Response code must be "201"
+19:02:44.921 * Validate store created from response
+
+19:02:45.116 ## Get Store by ID
+19:02:45.216 * GET/stores?"id=9999679"
+19:02:45.365 * "GET" Response code must be "200"
+
+19:02:45.568 ## Get stores in Minnesota
+19:02:45.666 * GET/stores?"state=MN"
+19:02:45.860 * "GET" Response code must be "200"
+
+19:02:46.056 ## List Stores
+19:02:46.158 * GET/stores
+19:02:46.337 * "GET" Response code must be "200"
+
+19:02:46.536 ## Create Store without name
+19:02:46.636 * POST/stores "json/store.json" with "name" ""
+19:02:46.809 * "POST" Response code must be "400"
+19:02:46.959 * Error must be "'name' should NOT be shorter than 1 characters"
+
+19:02:47.155 ## Create Store without type
+19:02:47.256 * POST/stores "json/store.json" with "type" ""
+19:02:47.439 * "POST" Response code must be "400"
+19:02:47.587 * Error must be "'type' should NOT be shorter than 1 characters"
+
+19:02:47.798 ## Create Store without address
+19:02:47.896 * POST/stores "json/store.json" with "address" ""
+19:02:48.069 * "POST" Response code must be "400"
+19:02:48.216 * Error must be "'address' should NOT be shorter than 1 characters"
+
+19:02:48.419 ## Create Store without city
+19:02:48.517 * POST/stores "json/store.json" with "city" ""
+19:02:48.698 * "POST" Response code must be "400"
+19:02:48.851 * Error must be "'city' should NOT be shorter than 1 characters"
+
+19:02:49.046 ## Create Store without state
+19:02:49.147 * POST/stores "json/store.json" with "state" ""
+19:02:49.317 * "POST" Response code must be "400"
+19:02:49.466 * Error must be "'state' should NOT be shorter than 1 characters"
+
+19:02:49.670 ## Create Store without zip
+19:02:49.767 * POST/stores "json/store.json" with "zip" ""
+19:02:49.936 * "POST" Response code must be "400"
+19:02:50.089 * Error must be "'zip' should NOT be shorter than 1 characters"
+
+19:02:50.285 ## Create Store with invalid lat
+19:02:50.389 * POST/stores "json/store.json" with "lat" "Test"
+19:02:50.551 * "POST" Response code must be "400"
+19:02:50.697 * Error must be "'lat' should be number"
+
+19:02:50.900 ## Create Store with invalid lng
+19:02:50.996 * POST/stores "json/store.json" with "lng" "Test"
+19:02:51.156 * "POST" Response code must be "400"
+19:02:51.306 * Error must be "'lng' should be number"
+
+19:02:51.509 ## Create Store without hours
+19:02:51.607 * POST/stores "json/store.json" with "hours" ""
+19:02:51.772 * "POST" Response code must be "400"
+19:02:51.926 * Error must be "'hours' should NOT be shorter than 1 characters"
+19:02:54.302 Plugin [Html Report] with pid [24] has exited
+19:02:54.308 Specifications:	3 executed	2 passed	1 failed	0 skipped
+19:02:54.315 Scenarios:	30 executed	29 passed	1 failed	0 skipped
+19:02:54.319 
+Total time taken: 18.267s
+19:11:05.033 Plugin ruby is already installed.
+19:11:05.035 Plugin html-report is already installed.
+19:11:05.036 Installing required plugins.
+19:11:05.037 Installing plugin 'screenshot'
+19:11:05.038 Gathering metadata for screenshot
+19:11:06.068 Checking updates...
+19:11:06.070 Downloading screenshot-0.0.1-linux.x86_64.zip
+19:11:13.345 Installing plugin screenshot 0.0.1
+19:11:13.350 Successfully installed plugin 'screenshot'.
+19:11:18.572 # Category
+19:11:18.674 ## Create Category
+19:11:18.773 * POST/categories "json/category.json"
+19:11:18.953 * "POST" Response code must be "201"
+19:11:19.140 
+Failed Step: "POST" Response code must be "201"
+19:11:19.141 Error Message: 
+expected: 201
+     got: 400
+
+(compared using ==)
+19:11:19.142 Specification: specs/category.md:13
+19:11:19.143 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+19:11:19.444 Plugin [Html Report] with pid [22] has exited
+19:11:19.445 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:11:19.446 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:11:19.448 
+Total time taken: 996ms
+19:11:55.222 Plugin ruby is already installed.
+19:11:55.225 Plugin html-report is already installed.
+19:11:55.226 Installing required plugins.
+19:11:55.227 Installing plugin 'screenshot'
+19:11:55.227 Gathering metadata for screenshot
+19:11:56.582 Downloading screenshot-0.0.1-linux.x86_64.zip
+19:11:56.589 Checking updates...
+19:12:01.902 Installing plugin screenshot 0.0.1
+19:12:01.908 Successfully installed plugin 'screenshot'.
+19:12:08.107 # Category
+19:12:08.208 ## Create Category
+19:12:08.308 * POST/categories "json/category.json"
+19:12:08.502 * "POST" Response code must be "201"
+19:12:08.680 
+Failed Step: "POST" Response code must be "201"
+19:12:08.683 Error Message: 
+expected: 201
+     got: 400
+
+(compared using ==)
+19:12:08.683 Specification: specs/category.md:13
+19:12:08.684 Stacktrace: 
+
+> 14 | expect(response_code).to eq(code.to_i)
+
+/app/step_implementations/common_steps.rb:14:in `block in <top (required)>'
+19:12:09.081 Plugin [Html Report] with pid [21] has exited
+19:12:09.082 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:12:09.084 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:12:09.086 
+Total time taken: 994ms
+19:16:52.062 Plugin ruby is already installed.
+19:16:52.069 Plugin html-report is already installed.
+19:16:52.071 Installing required plugins.
+19:16:52.073 Installing plugin 'screenshot'
+19:16:52.073 Gathering metadata for screenshot
+19:16:54.661 Downloading screenshot-0.0.1-linux.x86_64.zip
+19:16:54.975 Checking updates...
+19:17:04.067 Installing plugin screenshot 0.0.1
+19:17:04.074 Successfully installed plugin 'screenshot'.
+19:17:08.943 # Category
+19:17:09.043 ## Create Category
+19:17:09.143 * POST/categories "json/category.json"
+19:17:09.368 * "POST" Response code must be "201"
+19:17:09.515 * Validate category created from response
+
+19:17:10.174 Plugin [Html Report] with pid [21] has exited
+19:17:10.177 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:17:10.179 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:17:10.181 
+Total time taken: 1.149s
+19:17:26.349 Plugin html-report is already installed.
+19:17:26.351 Plugin ruby is already installed.
+19:17:26.352 Installing required plugins.
+19:17:26.352 Installing plugin 'screenshot'
+19:17:26.353 Gathering metadata for screenshot
+19:17:30.115 Checking updates...
+19:17:30.413 Downloading screenshot-0.0.1-linux.x86_64.zip
+19:17:39.510 Installing plugin screenshot 0.0.1
+19:17:39.518 Successfully installed plugin 'screenshot'.
+19:17:45.464 # Category
+19:17:45.562 ## Create Category
+19:17:45.663 * POST/categories "json/category.json"
+19:17:45.833 * "POST" Response code must be "201"
+19:17:45.991 * Validate category created from response
+
+19:17:46.195 ## Get Categories with TV in the name
+19:17:46.295 * GET/products?"name[$like]=*TV*"
+19:17:46.497 * "GET" Response code must be "200"
+
+19:17:46.692 ## List Categories
+19:17:46.793 * GET/categories
+19:17:46.986 * "GET" Response code must be "200"
+
+19:17:47.183 ## Create Category without id
+19:17:47.282 * POST/categories "json/category.json" with "id" ""
+19:17:47.450 * "POST" Response code must be "400"
+19:17:47.606 * Error must be "'id' should NOT be shorter than 1 characters"
+
+19:17:47.811 ## Create Category without name
+19:17:47.914 * POST/categories "json/category.json" with "name" ""
+19:17:48.073 * "POST" Response code must be "400"
+19:17:48.225 * Error must be "'name' should NOT be shorter than 1 characters"
+19:17:48.472 # Product
+19:17:48.573 ## Create Product
+19:17:48.674 * POST/products "json/product.json"
+19:17:48.843 * "POST" Response code must be "201"
+19:17:48.996 * Validate product created from response
+
+19:17:49.196 ## Get Product by ID
+19:17:49.292 * GET/products?"id=9999679"
+19:17:49.455 * "GET" Response code must be "200"
+
+19:17:49.651 ## Get Highest Priced Products
+19:17:49.756 * GET/products?"$sort[price]=-1"
+19:17:50.074 * "GET" Response code must be "200"
+
+19:17:50.274 ## Get Product Name and Description Only
+19:17:50.374 * GET/products?"$select[]=name&$select[]=description"
+19:17:50.543 * "GET" Response code must be "200"
+
+19:17:50.751 ## Get TVs with free shipping and price between $500 and $800
+19:17:50.854 * GET/products?"category.name=TVs&price[$gt]=500&price[$lt]=800&shipping[$eq]=0"
+19:17:51.262 * "GET" Response code must be "200"
+
+19:17:51.465 ## List Products
+19:17:51.566 * GET/products
+19:17:51.863 * "GET" Response code must be "200"
+
+19:17:52.062 ## Create Product without name
+19:17:52.166 * POST/products "json/product.json" with "name" ""
+19:17:52.322 * "POST" Response code must be "400"
+19:17:52.476 * Error must be "'name' should NOT be shorter than 1 characters"
+
+19:17:52.673 ## Create Product without type
+19:17:52.777 * POST/products "json/product.json" with "type" ""
+19:17:52.934 * "POST" Response code must be "400"
+19:17:53.085 * Error must be "'type' should NOT be shorter than 1 characters"
+
+19:17:53.286 ## Create Product without upc
+19:17:53.386 * POST/products "json/product.json" with "upc" ""
+19:17:53.548 * "POST" Response code must be "400"
+19:17:53.705 * Error must be "'upc' should NOT be shorter than 1 characters"
+
+19:17:53.906 ## Create Product with invalid price
+19:17:54.005 * POST/products "json/product.json" with "price" "x"
+19:17:54.177 * "POST" Response code must be "400"
+19:17:54.324 * Error must be "'price' should be number"
+
+19:17:54.523 ## Create Product without description
+19:17:54.625 * POST/products "json/product.json" with "description" ""
+19:17:54.787 * "POST" Response code must be "400"
+19:17:54.934 * Error must be "'description' should NOT be shorter than 1 characters"
+
+19:17:55.133 ## Create Product without model
+19:17:55.247 * POST/products "json/product.json" with "model" ""
+19:17:55.415 * "POST" Response code must be "400"
+19:17:55.567 * Error must be "'model' should NOT be shorter than 1 characters"
+19:17:55.818 # Stores
+19:17:55.915 ## Create Store
+19:17:56.017 * POST/stores "json/store.json"
+19:17:56.184 * "POST" Response code must be "201"
+19:17:56.333 * Validate store created from response
+
+19:17:56.534 ## Get Store by ID
+19:17:56.635 * GET/stores?"id=9999679"
+19:17:56.793 * "GET" Response code must be "200"
+
+19:17:56.993 ## Get stores in Minnesota
+19:17:57.094 * GET/stores?"state=MN"
+19:17:57.335 * "GET" Response code must be "200"
+
+19:17:57.534 ## List Stores
+19:17:57.636 * GET/stores
+19:17:57.813 * "GET" Response code must be "200"
+
+19:17:58.016 ## Create Store without name
+19:17:58.114 * POST/stores "json/store.json" with "name" ""
+19:17:58.274 * "POST" Response code must be "400"
+19:17:58.424 * Error must be "'name' should NOT be shorter than 1 characters"
+
+19:17:58.621 ## Create Store without type
+19:17:58.723 * POST/stores "json/store.json" with "type" ""
+19:17:58.884 * "POST" Response code must be "400"
+19:17:59.037 * Error must be "'type' should NOT be shorter than 1 characters"
+
+19:17:59.232 ## Create Store without address
+19:17:59.337 * POST/stores "json/store.json" with "address" ""
+19:17:59.494 * "POST" Response code must be "400"
+19:17:59.643 * Error must be "'address' should NOT be shorter than 1 characters"
+
+19:17:59.843 ## Create Store without city
+19:17:59.945 * POST/stores "json/store.json" with "city" ""
+19:18:00.104 * "POST" Response code must be "400"
+19:18:00.253 * Error must be "'city' should NOT be shorter than 1 characters"
+
+19:18:00.452 ## Create Store without state
+19:18:00.554 * POST/stores "json/store.json" with "state" ""
+19:18:00.715 * "POST" Response code must be "400"
+19:18:00.865 * Error must be "'state' should NOT be shorter than 1 characters"
+
+19:18:01.061 ## Create Store without zip
+19:18:01.163 * POST/stores "json/store.json" with "zip" ""
+19:18:01.322 * "POST" Response code must be "400"
+19:18:01.473 * Error must be "'zip' should NOT be shorter than 1 characters"
+
+19:18:01.672 ## Create Store with invalid lat
+19:18:01.773 * POST/stores "json/store.json" with "lat" "Test"
+19:18:01.934 * "POST" Response code must be "400"
+19:18:02.087 * Error must be "'lat' should be number"
+
+19:18:02.283 ## Create Store with invalid lng
+19:18:02.383 * POST/stores "json/store.json" with "lng" "Test"
+19:18:02.547 * "POST" Response code must be "400"
+19:18:02.700 * Error must be "'lng' should be number"
+
+19:18:02.903 ## Create Store without hours
+19:18:03.004 * POST/stores "json/store.json" with "hours" ""
+19:18:03.167 * "POST" Response code must be "400"
+19:18:03.314 * Error must be "'hours' should NOT be shorter than 1 characters"
+19:18:05.576 Plugin [Html Report] with pid [22] has exited
+19:18:05.577 Specifications:	3 executed	3 passed	0 failed	0 skipped
+19:18:05.578 Scenarios:	30 executed	30 passed	0 failed	0 skipped
+19:18:05.580 
+Total time taken: 18.417s
