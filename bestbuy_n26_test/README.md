@@ -14,6 +14,10 @@ npm start
 
 Tests are developed using [Gauge](http://getgauge.io/index.html).
 
+**Prerequisite:**
+- Install [Docker](https://docs.docker.com/install/)
+- Install [Github](https://github.com)
+
 - Clone the project
 ```
 git clone git@github.com:maristn/bestbuy_n26_test.git && cd bestbuy_n26_test
