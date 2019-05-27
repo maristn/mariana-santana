@@ -1,6 +1,6 @@
 # Best Buy Tests
 
-[Automated tests](https://github.com/maristn/mariana-santana/blob/master/bestbuy_n26_test.zip)
+[Automated tests](https://github.com/maristn/mariana-santana/tree/master/bestbuy_n26_test)
 
 ## Product
 
