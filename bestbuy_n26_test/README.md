@@ -7,8 +7,6 @@ git clone https://github.com/bestbuy/api-playground/
 cd api-playground
 npm install
 npm start
-# Best Buy API Playground started at http://localhost:3030
-
 
 ## Build and run bestbuy_n26_test
 
@@ -22,6 +20,11 @@ git clone git@github.com:maristn/bestbuy_n26_test.git && cd bestbuy_n26_test
 - Build the project
 ```
 docker-compose build
+```
+
+- Change LOCAL on [main.properties](https://github.com/maristn/mariana-santana/blob/master/bestbuy_n26_test/env/default/main.properties) to your IP 
+```
+LOCAL = http://192.168.15.11:3030
 ```
 
 - Execute all the tests
